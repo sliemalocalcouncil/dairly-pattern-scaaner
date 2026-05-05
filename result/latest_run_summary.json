@@ -1,80 +1,78 @@
 {
-  "run_id": "20260505T194535Z-063507",
-  "asof": "2026-05-05T19:45:35.224529+00:00",
-  "n_signals": 286,
-  "n_alerts_eligible": 0,
+  "run_id": "20260505T210937Z-543da1",
+  "asof": "2026-05-05T21:09:37.858700+00:00",
+  "n_signals": 287,
+  "n_alerts_eligible": 1,
   "by_pattern": {
-    "double_bottom": 86,
-    "bull_flag": 39,
-    "vcp": 42,
-    "cup_with_handle": 18,
+    "double_bottom": 87,
+    "bull_flag": 40,
+    "vcp": 41,
+    "cup_with_handle": 17,
     "inverse_head_shoulders": 13,
     "ascending_triangle": 39,
     "base_on_base": 7,
     "high_tight_pullback": 19,
-    "breakout_retest_hold": 20,
+    "breakout_retest_hold": 21,
     "tight_consolidation": 3
   },
   "by_state": {
-    "candidate": 37,
-    "absent": 96,
+    "candidate": 36,
+    "absent": 100,
     "forming": 78,
     "setup": 35,
-    "extended": 10,
-    "breakout_confirmed": 9,
-    "retest_hold": 4,
-    "invalidated": 17
+    "extended": 11,
+    "retest_hold": 6,
+    "invalidated": 15,
+    "breakout_confirmed": 6
   },
   "counters": {
     "detector_hits": {
-      "double_bottom": 86,
-      "bull_flag": 39,
+      "double_bottom": 87,
+      "bull_flag": 40,
       "vcp": 41,
-      "cup_with_handle": 18,
+      "cup_with_handle": 17,
       "inverse_head_shoulders": 13,
       "ascending_triangle": 39,
       "base_on_base": 7,
       "high_tight_pullback": 19,
-      "breakout_retest_hold": 20,
+      "breakout_retest_hold": 21,
       "tight_consolidation": 3
     },
-    "active_monitor_events": 1,
-    "alerts_by_type": {
-      "invalidated": 1
-    },
+    "active_monitor_events": 0,
+    "alerts_by_type": {},
     "tickers_processed": 99,
     "tickers_with_errors": 0
   },
   "errors": [],
   "top_5": [
     {
-      "ticker": "PANW",
-      "pattern": "breakout_retest_hold",
-      "score": 69.71,
-      "state": "setup"
-    },
-    {
-      "ticker": "HWM",
-      "pattern": "breakout_retest_hold",
-      "score": 69.4,
-      "state": "setup"
+      "ticker": "ONTO",
+      "pattern": "double_bottom",
+      "score": 70.34,
+      "state": "candidate"
     },
     {
       "ticker": "NBIS",
       "pattern": "high_tight_pullback",
-      "score": 69.33,
+      "score": 69.72,
       "state": "candidate"
     },
     {
-      "ticker": "ONTO",
-      "pattern": "double_bottom",
-      "score": 69.31,
-      "state": "candidate"
+      "ticker": "HWM",
+      "pattern": "breakout_retest_hold",
+      "score": 69.68,
+      "state": "setup"
     },
     {
-      "ticker": "MU",
-      "pattern": "high_tight_pullback",
-      "score": 68.64,
+      "ticker": "PANW",
+      "pattern": "breakout_retest_hold",
+      "score": 69.66,
+      "state": "setup"
+    },
+    {
+      "ticker": "LRCX",
+      "pattern": "breakout_retest_hold",
+      "score": 69.22,
       "state": "candidate"
     }
   ]
