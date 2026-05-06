@@ -1,0 +1,83 @@
+{
+  "run_id": "20260506T160449Z-c1bf5b",
+  "asof": "2026-05-06T16:04:49.159828+00:00",
+  "n_signals": 267,
+  "n_alerts_eligible": 0,
+  "by_pattern": {
+    "double_bottom": 86,
+    "bull_flag": 35,
+    "vcp": 39,
+    "cup_with_handle": 17,
+    "inverse_head_shoulders": 12,
+    "ascending_triangle": 39,
+    "base_on_base": 7,
+    "breakout_retest_hold": 22,
+    "high_tight_pullback": 8,
+    "tight_consolidation": 2
+  },
+  "by_state": {
+    "invalidated": 18,
+    "absent": 80,
+    "forming": 57,
+    "extended": 20,
+    "setup": 36,
+    "candidate": 29,
+    "retest_hold": 4,
+    "breakout_confirmed": 22,
+    "breakout_failed": 1
+  },
+  "counters": {
+    "detector_hits": {
+      "double_bottom": 86,
+      "bull_flag": 35,
+      "vcp": 39,
+      "cup_with_handle": 17,
+      "inverse_head_shoulders": 12,
+      "ascending_triangle": 39,
+      "base_on_base": 7,
+      "breakout_retest_hold": 18,
+      "high_tight_pullback": 8,
+      "tight_consolidation": 2
+    },
+    "active_monitor_events": 4,
+    "alerts_by_type": {
+      "invalidated": 3,
+      "failed": 1
+    },
+    "tickers_processed": 99,
+    "tickers_with_errors": 0
+  },
+  "errors": [],
+  "top_5": [
+    {
+      "ticker": "ON",
+      "pattern": "double_bottom",
+      "score": 69.48,
+      "state": "candidate"
+    },
+    {
+      "ticker": "ONTO",
+      "pattern": "double_bottom",
+      "score": 67.75,
+      "state": "candidate"
+    },
+    {
+      "ticker": "MKSI",
+      "pattern": "double_bottom",
+      "score": 67.48,
+      "state": "candidate"
+    },
+    {
+      "ticker": "SGML",
+      "pattern": "double_bottom",
+      "score": 67.11,
+      "state": "candidate"
+    },
+    {
+      "ticker": "COHR",
+      "pattern": "double_bottom",
+      "score": 65.92,
+      "state": "candidate"
+    }
+  ]
+}
