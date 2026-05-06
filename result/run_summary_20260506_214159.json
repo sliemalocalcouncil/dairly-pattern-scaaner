@@ -1,0 +1,82 @@
+{
+  "run_id": "20260506T214159Z-21c987",
+  "asof": "2026-05-06T21:41:59.535573+00:00",
+  "n_signals": 265,
+  "n_alerts_eligible": 5,
+  "by_pattern": {
+    "double_bottom": 88,
+    "bull_flag": 39,
+    "vcp": 39,
+    "cup_with_handle": 16,
+    "inverse_head_shoulders": 13,
+    "ascending_triangle": 31,
+    "base_on_base": 7,
+    "breakout_retest_hold": 18,
+    "high_tight_pullback": 13,
+    "tight_consolidation": 1
+  },
+  "by_state": {
+    "forming": 64,
+    "absent": 74,
+    "extended": 22,
+    "candidate": 30,
+    "setup": 40,
+    "invalidated": 9,
+    "breakout_confirmed": 20,
+    "retest_hold": 6
+  },
+  "counters": {
+    "detector_hits": {
+      "double_bottom": 88,
+      "bull_flag": 39,
+      "vcp": 39,
+      "cup_with_handle": 16,
+      "inverse_head_shoulders": 13,
+      "ascending_triangle": 31,
+      "base_on_base": 7,
+      "breakout_retest_hold": 18,
+      "high_tight_pullback": 13,
+      "tight_consolidation": 1
+    },
+    "active_monitor_events": 0,
+    "alerts_by_type": {
+      "setup": 2,
+      "breakout": 1
+    },
+    "tickers_processed": 99,
+    "tickers_with_errors": 0
+  },
+  "errors": [],
+  "top_5": [
+    {
+      "ticker": "DDOG",
+      "pattern": "double_bottom",
+      "score": 74.44,
+      "state": "candidate"
+    },
+    {
+      "ticker": "ATI",
+      "pattern": "bull_flag",
+      "score": 72.64,
+      "state": "breakout_confirmed"
+    },
+    {
+      "ticker": "VSAT",
+      "pattern": "double_bottom",
+      "score": 70.39,
+      "state": "breakout_confirmed"
+    },
+    {
+      "ticker": "AVGO",
+      "pattern": "breakout_retest_hold",
+      "score": 70.15,
+      "state": "setup"
+    },
+    {
+      "ticker": "CDNS",
+      "pattern": "breakout_retest_hold",
+      "score": 70.05,
+      "state": "setup"
+    }
+  ]
+}

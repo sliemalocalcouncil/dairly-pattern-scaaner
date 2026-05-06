@@ -1,8 +1,8 @@
 {
-  "run_id": "20260506T201058Z-6c4b65",
-  "asof": "2026-05-06T20:10:58.576474+00:00",
+  "run_id": "20260506T214159Z-21c987",
+  "asof": "2026-05-06T21:41:59.535573+00:00",
   "n_signals": 265,
-  "n_alerts_eligible": 2,
+  "n_alerts_eligible": 5,
   "by_pattern": {
     "double_bottom": 88,
     "bull_flag": 39,
@@ -17,14 +17,13 @@
   },
   "by_state": {
     "forming": 64,
-    "absent": 75,
-    "extended": 21,
-    "candidate": 26,
-    "setup": 43,
-    "breakout_failed": 1,
-    "retest_hold": 2,
+    "absent": 74,
+    "extended": 22,
+    "candidate": 30,
+    "setup": 40,
     "invalidated": 9,
-    "breakout_confirmed": 24
+    "breakout_confirmed": 20,
+    "retest_hold": 6
   },
   "counters": {
     "detector_hits": {
@@ -41,7 +40,8 @@
     },
     "active_monitor_events": 0,
     "alerts_by_type": {
-      "watch": 1
+      "setup": 2,
+      "breakout": 1
     },
     "tickers_processed": 99,
     "tickers_with_errors": 0
@@ -51,32 +51,32 @@
     {
       "ticker": "DDOG",
       "pattern": "double_bottom",
-      "score": 73.84,
+      "score": 74.44,
       "state": "candidate"
     },
     {
       "ticker": "ATI",
       "pattern": "bull_flag",
-      "score": 70.95,
-      "state": "candidate"
-    },
-    {
-      "ticker": "CDNS",
-      "pattern": "breakout_retest_hold",
-      "score": 69.69,
-      "state": "setup"
-    },
-    {
-      "ticker": "AVGO",
-      "pattern": "breakout_retest_hold",
-      "score": 69.58,
-      "state": "setup"
+      "score": 72.64,
+      "state": "breakout_confirmed"
     },
     {
       "ticker": "VSAT",
       "pattern": "double_bottom",
-      "score": 69.56,
+      "score": 70.39,
       "state": "breakout_confirmed"
+    },
+    {
+      "ticker": "AVGO",
+      "pattern": "breakout_retest_hold",
+      "score": 70.15,
+      "state": "setup"
+    },
+    {
+      "ticker": "CDNS",
+      "pattern": "breakout_retest_hold",
+      "score": 70.05,
+      "state": "setup"
     }
   ]
 }
