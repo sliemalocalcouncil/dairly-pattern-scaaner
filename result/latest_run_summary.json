@@ -1,47 +1,47 @@
 {
-  "run_id": "20260506T180241Z-52af74",
-  "asof": "2026-05-06T18:02:41.928838+00:00",
-  "n_signals": 260,
-  "n_alerts_eligible": 1,
+  "run_id": "20260506T201058Z-6c4b65",
+  "asof": "2026-05-06T20:10:58.576474+00:00",
+  "n_signals": 265,
+  "n_alerts_eligible": 2,
   "by_pattern": {
-    "double_bottom": 87,
-    "bull_flag": 34,
-    "vcp": 40,
+    "double_bottom": 88,
+    "bull_flag": 39,
+    "vcp": 39,
     "cup_with_handle": 16,
     "inverse_head_shoulders": 13,
-    "ascending_triangle": 37,
+    "ascending_triangle": 31,
     "base_on_base": 7,
-    "breakout_retest_hold": 19,
-    "high_tight_pullback": 6,
+    "breakout_retest_hold": 18,
+    "high_tight_pullback": 13,
     "tight_consolidation": 1
   },
   "by_state": {
-    "forming": 63,
-    "absent": 79,
-    "extended": 18,
-    "candidate": 19,
-    "breakout_failed": 4,
-    "setup": 46,
-    "retest_hold": 6,
-    "invalidated": 8,
-    "breakout_confirmed": 17
+    "forming": 64,
+    "absent": 75,
+    "extended": 21,
+    "candidate": 26,
+    "setup": 43,
+    "breakout_failed": 1,
+    "retest_hold": 2,
+    "invalidated": 9,
+    "breakout_confirmed": 24
   },
   "counters": {
     "detector_hits": {
-      "double_bottom": 87,
-      "bull_flag": 34,
-      "vcp": 40,
+      "double_bottom": 88,
+      "bull_flag": 39,
+      "vcp": 39,
       "cup_with_handle": 16,
       "inverse_head_shoulders": 13,
-      "ascending_triangle": 37,
+      "ascending_triangle": 31,
       "base_on_base": 7,
-      "breakout_retest_hold": 19,
-      "high_tight_pullback": 6,
+      "breakout_retest_hold": 18,
+      "high_tight_pullback": 13,
       "tight_consolidation": 1
     },
     "active_monitor_events": 0,
     "alerts_by_type": {
-      "setup": 1
+      "watch": 1
     },
     "tickers_processed": 99,
     "tickers_with_errors": 0
@@ -49,34 +49,34 @@
   "errors": [],
   "top_5": [
     {
-      "ticker": "COHR",
-      "pattern": "breakout_retest_hold",
-      "score": 70.68,
-      "state": "setup"
-    },
-    {
       "ticker": "DDOG",
       "pattern": "double_bottom",
-      "score": 68.95,
+      "score": 73.84,
       "state": "candidate"
     },
     {
+      "ticker": "ATI",
+      "pattern": "bull_flag",
+      "score": 70.95,
+      "state": "candidate"
+    },
+    {
+      "ticker": "CDNS",
+      "pattern": "breakout_retest_hold",
+      "score": 69.69,
+      "state": "setup"
+    },
+    {
+      "ticker": "AVGO",
+      "pattern": "breakout_retest_hold",
+      "score": 69.58,
+      "state": "setup"
+    },
+    {
       "ticker": "VSAT",
       "pattern": "double_bottom",
-      "score": 68.83,
-      "state": "setup"
-    },
-    {
-      "ticker": "VSAT",
-      "pattern": "ascending_triangle",
-      "score": 68.75,
-      "state": "setup"
-    },
-    {
-      "ticker": "ONTO",
-      "pattern": "breakout_retest_hold",
-      "score": 68.2,
-      "state": "setup"
+      "score": 69.56,
+      "state": "breakout_confirmed"
     }
   ]
 }
