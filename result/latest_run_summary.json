@@ -1,11 +1,11 @@
 {
-  "run_id": "20260507T200432Z-d31681",
-  "asof": "2026-05-07T20:04:32.123375+00:00",
-  "n_signals": 286,
+  "run_id": "20260507T213235Z-5df682",
+  "asof": "2026-05-07T21:32:35.840712+00:00",
+  "n_signals": 288,
   "n_alerts_eligible": 5,
   "by_pattern": {
-    "double_bottom": 87,
-    "bull_flag": 55,
+    "double_bottom": 88,
+    "bull_flag": 56,
     "vcp": 38,
     "cup_with_handle": 16,
     "high_tight_pullback": 21,
@@ -16,20 +16,19 @@
     "tight_consolidation": 1
   },
   "by_state": {
-    "forming": 84,
-    "absent": 95,
-    "extended": 18,
-    "retest_hold": 4,
-    "setup": 40,
-    "candidate": 17,
-    "invalidated": 14,
-    "breakout_confirmed": 13,
-    "breakout_failed": 1
+    "forming": 85,
+    "absent": 98,
+    "extended": 19,
+    "setup": 39,
+    "candidate": 18,
+    "invalidated": 13,
+    "retest_hold": 2,
+    "breakout_confirmed": 14
   },
   "counters": {
     "detector_hits": {
-      "double_bottom": 87,
-      "bull_flag": 55,
+      "double_bottom": 88,
+      "bull_flag": 56,
       "vcp": 38,
       "cup_with_handle": 16,
       "high_tight_pullback": 21,
@@ -41,9 +40,6 @@
     },
     "active_monitor_events": 1,
     "alerts_by_type": {
-      "setup": 1,
-      "watch": 1,
-      "breakout": 1,
       "invalidated": 1
     },
     "tickers_processed": 99,
@@ -54,31 +50,31 @@
     {
       "ticker": "NET",
       "pattern": "high_tight_pullback",
-      "score": 75.61,
+      "score": 77.14,
       "state": "candidate"
     },
     {
       "ticker": "SGML",
       "pattern": "breakout_retest_hold",
-      "score": 72.79,
+      "score": 73.07,
       "state": "setup"
     },
     {
       "ticker": "TXN",
       "pattern": "breakout_retest_hold",
-      "score": 71.11,
+      "score": 71.59,
       "state": "setup"
     },
     {
       "ticker": "MKSI",
       "pattern": "breakout_retest_hold",
-      "score": 70.62,
+      "score": 71.23,
       "state": "breakout_confirmed"
     },
     {
       "ticker": "ADI",
       "pattern": "breakout_retest_hold",
-      "score": 70.19,
+      "score": 71.03,
       "state": "setup"
     }
   ]
