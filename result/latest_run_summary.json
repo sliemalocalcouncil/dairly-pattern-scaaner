@@ -1,48 +1,46 @@
 {
-  "run_id": "20260508T154314Z-e97d6b",
-  "asof": "2026-05-08T15:43:14.005036+00:00",
-  "n_signals": 267,
+  "run_id": "20260508T172646Z-db7847",
+  "asof": "2026-05-08T17:26:46.893969+00:00",
+  "n_signals": 258,
   "n_alerts_eligible": 0,
   "by_pattern": {
-    "double_bottom": 82,
-    "bull_flag": 54,
-    "vcp": 37,
+    "double_bottom": 83,
+    "bull_flag": 52,
+    "vcp": 36,
     "cup_with_handle": 12,
     "base_on_base": 6,
-    "ascending_triangle": 31,
+    "ascending_triangle": 27,
     "breakout_retest_hold": 30,
-    "high_tight_pullback": 11,
+    "high_tight_pullback": 8,
     "inverse_head_shoulders": 3,
     "tight_consolidation": 1
   },
   "by_state": {
     "forming": 64,
-    "absent": 102,
+    "absent": 97,
     "setup": 39,
-    "extended": 15,
-    "invalidated": 15,
-    "candidate": 13,
-    "breakout_confirmed": 10,
-    "retest_hold": 2,
-    "breakout_failed": 7
+    "candidate": 15,
+    "extended": 16,
+    "invalidated": 13,
+    "retest_hold": 4,
+    "breakout_confirmed": 10
   },
   "counters": {
     "detector_hits": {
-      "double_bottom": 82,
-      "bull_flag": 54,
-      "vcp": 37,
+      "double_bottom": 83,
+      "bull_flag": 52,
+      "vcp": 36,
       "cup_with_handle": 12,
       "base_on_base": 6,
-      "ascending_triangle": 28,
-      "breakout_retest_hold": 27,
-      "high_tight_pullback": 10,
-      "inverse_head_shoulders": 2,
+      "ascending_triangle": 27,
+      "breakout_retest_hold": 28,
+      "high_tight_pullback": 8,
+      "inverse_head_shoulders": 3,
       "tight_consolidation": 1
     },
-    "active_monitor_events": 8,
+    "active_monitor_events": 2,
     "alerts_by_type": {
-      "invalidated": 6,
-      "failed": 5
+      "invalidated": 1
     },
     "tickers_processed": 99,
     "tickers_with_errors": 0
@@ -50,34 +48,34 @@
   "errors": [],
   "top_5": [
     {
-      "ticker": "LSCC",
+      "ticker": "APP",
       "pattern": "double_bottom",
-      "score": 68.52,
+      "score": 67.73,
+      "state": "candidate"
+    },
+    {
+      "ticker": "VSAT",
+      "pattern": "double_bottom",
+      "score": 66.93,
       "state": "candidate"
     },
     {
       "ticker": "IRDM",
       "pattern": "double_bottom",
-      "score": 68.21,
+      "score": 66.36,
       "state": "candidate"
-    },
-    {
-      "ticker": "APP",
-      "pattern": "double_bottom",
-      "score": 67.88,
-      "state": "breakout_failed"
-    },
-    {
-      "ticker": "TSM",
-      "pattern": "breakout_retest_hold",
-      "score": 67.08,
-      "state": "setup"
     },
     {
       "ticker": "ORCL",
       "pattern": "high_tight_pullback",
-      "score": 67.07,
+      "score": 65.83,
       "state": "candidate"
+    },
+    {
+      "ticker": "NXPI",
+      "pattern": "breakout_retest_hold",
+      "score": 65.72,
+      "state": "breakout_confirmed"
     }
   ]
 }
