@@ -50,8 +50,8 @@
   },
   "ADI::double_bottom": {
     "invalid_below": 380.73204999999996,
-    "monitored_until": null,
-    "state": "forming",
+    "monitored_until": "2026-05-15T20:00:00+00:00",
+    "state": "setup",
     "trigger": 415.97
   },
   "ADI::vcp": {
@@ -304,7 +304,7 @@
     "last_alert_score": 40.0,
     "last_alert_type": "invalidated",
     "monitored_until": "2026-05-15T20:00:00+00:00",
-    "state": "breakout_confirmed",
+    "state": "retest_hold",
     "trigger": 74.61
   },
   "ASTS::inverse_head_shoulders": {
@@ -696,7 +696,7 @@
     "last_alert_score": 56.17,
     "last_alert_type": "failed",
     "monitored_until": null,
-    "state": "forming",
+    "state": "invalidated",
     "trigger": 475.69
   },
   "CRS::high_tight_pullback": {
@@ -903,7 +903,7 @@
   "FLY::double_bottom": {
     "invalid_below": 31.529849999999996,
     "monitored_until": "2026-05-15T20:00:00+00:00",
-    "state": "setup",
+    "state": "breakout_confirmed",
     "trigger": 39.138
   },
   "FLY::inverse_head_shoulders": {
@@ -1379,7 +1379,7 @@
   "LSCC::ascending_triangle": {
     "invalid_below": 113.28485,
     "monitored_until": null,
-    "state": "candidate",
+    "state": "absent",
     "trigger": 127.9462
   },
   "LSCC::base_on_base": {
@@ -1616,7 +1616,7 @@
   },
   "MSTR::high_tight_pullback": {
     "invalid_below": 173.0842,
-    "state": "forming",
+    "state": "candidate",
     "trigger": 190.41
   },
   "MU::ascending_triangle": {
@@ -1651,8 +1651,8 @@
   },
   "NBIS::breakout_retest_hold": {
     "invalid_below": 174.7449,
-    "monitored_until": null,
-    "state": "candidate",
+    "monitored_until": "2026-05-15T20:00:00+00:00",
+    "state": "setup",
     "trigger": 176.66
   },
   "NBIS::bull_flag": {
@@ -1910,22 +1910,19 @@
     "state": "setup",
     "trigger": 72.28
   },
-  "OMER::ascending_triangle": {
-    "invalid_below": 14.08156,
-    "monitored_until": "2026-05-08T20:00:00+00:00",
-    "state": "retest_hold",
-    "trigger": 14.94
-  },
   "OMER::breakout_retest_hold": {
     "invalid_below": 14.4837,
-    "monitored_until": "2026-05-12T20:00:00+00:00",
-    "state": "setup",
+    "last_alert_at": "2026-05-08T21:35:14.143099+00:00",
+    "last_alert_score": 0.0,
+    "last_alert_type": "invalidated",
+    "monitored_until": null,
+    "state": "invalidated",
     "trigger": 14.72
   },
   "OMER::bull_flag": {
-    "invalid_below": 14.144599999999999,
+    "invalid_below": 13.986999999999998,
     "state": "absent",
-    "trigger": 15.32
+    "trigger": 15.25
   },
   "OMER::double_bottom": {
     "invalid_below": 14.08156,
@@ -1940,6 +1937,12 @@
     "invalid_below": 14.08156,
     "state": "forming",
     "trigger": 14.94
+  },
+  "OMER::vcp": {
+    "invalid_below": 12.81485,
+    "monitored_until": "2026-05-15T20:00:00+00:00",
+    "state": "setup",
+    "trigger": 13.94
   },
   "ON::ascending_triangle": {
     "invalid_below": 94.6388,
@@ -2230,7 +2233,8 @@
   },
   "SATS::ascending_triangle": {
     "invalid_below": 114.7919,
-    "state": "absent",
+    "monitored_until": "2026-05-15T20:00:00+00:00",
+    "state": "setup",
     "trigger": 127.02
   },
   "SATS::breakout_retest_hold": {
@@ -2254,8 +2258,8 @@
   },
   "SATS::double_bottom": {
     "invalid_below": 117.412,
-    "monitored_until": null,
-    "state": "forming",
+    "monitored_until": "2026-05-15T20:00:00+00:00",
+    "state": "setup",
     "trigger": 127.02
   },
   "SATS::vcp": {
@@ -2362,8 +2366,8 @@
   },
   "SNPS::ascending_triangle": {
     "invalid_below": 481.018446,
-    "monitored_until": "2026-05-15T20:00:00+00:00",
-    "state": "setup",
+    "monitored_until": null,
+    "state": "absent",
     "trigger": 517.0
   },
   "SNPS::breakout_retest_hold": {
@@ -2385,8 +2389,8 @@
   },
   "SNPS::double_bottom": {
     "invalid_below": 471.815,
-    "monitored_until": "2026-05-15T20:00:00+00:00",
-    "state": "setup",
+    "monitored_until": null,
+    "state": "forming",
     "trigger": 517.0
   },
   "SNPS::inverse_head_shoulders": {
@@ -2922,7 +2926,7 @@
   "WWD::double_bottom": {
     "invalid_below": 352.00945,
     "monitored_until": null,
-    "state": "absent",
+    "state": "forming",
     "trigger": 387.19
   },
   "WWD::vcp": {

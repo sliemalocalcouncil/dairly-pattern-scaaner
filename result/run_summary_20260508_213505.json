@@ -1,0 +1,81 @@
+{
+  "run_id": "20260508T213505Z-6161ec",
+  "asof": "2026-05-08T21:35:05.523121+00:00",
+  "n_signals": 260,
+  "n_alerts_eligible": 0,
+  "by_pattern": {
+    "double_bottom": 79,
+    "bull_flag": 57,
+    "vcp": 38,
+    "cup_with_handle": 12,
+    "ascending_triangle": 33,
+    "breakout_retest_hold": 22,
+    "base_on_base": 6,
+    "inverse_head_shoulders": 5,
+    "high_tight_pullback": 7,
+    "tight_consolidation": 1
+  },
+  "by_state": {
+    "forming": 65,
+    "absent": 100,
+    "setup": 38,
+    "candidate": 18,
+    "invalidated": 11,
+    "breakout_confirmed": 10,
+    "extended": 15,
+    "retest_hold": 3
+  },
+  "counters": {
+    "detector_hits": {
+      "double_bottom": 79,
+      "bull_flag": 57,
+      "vcp": 38,
+      "cup_with_handle": 12,
+      "ascending_triangle": 33,
+      "breakout_retest_hold": 21,
+      "base_on_base": 6,
+      "inverse_head_shoulders": 5,
+      "high_tight_pullback": 7,
+      "tight_consolidation": 1
+    },
+    "active_monitor_events": 1,
+    "alerts_by_type": {
+      "invalidated": 1
+    },
+    "tickers_processed": 99,
+    "tickers_with_errors": 0
+  },
+  "errors": [],
+  "top_5": [
+    {
+      "ticker": "NVDA",
+      "pattern": "breakout_retest_hold",
+      "score": 69.52,
+      "state": "setup"
+    },
+    {
+      "ticker": "NXPI",
+      "pattern": "breakout_retest_hold",
+      "score": 68.75,
+      "state": "retest_hold"
+    },
+    {
+      "ticker": "VSAT",
+      "pattern": "double_bottom",
+      "score": 68.58,
+      "state": "setup"
+    },
+    {
+      "ticker": "MSTR",
+      "pattern": "double_bottom",
+      "score": 68.21,
+      "state": "candidate"
+    },
+    {
+      "ticker": "TSM",
+      "pattern": "breakout_retest_hold",
+      "score": 67.81,
+      "state": "breakout_confirmed"
+    }
+  ]
+}
