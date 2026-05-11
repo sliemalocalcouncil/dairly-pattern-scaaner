@@ -1,0 +1,81 @@
+{
+  "run_id": "20260511T210424Z-5325f6",
+  "asof": "2026-05-11T21:04:24.057167+00:00",
+  "n_signals": 245,
+  "n_alerts_eligible": 3,
+  "by_pattern": {
+    "double_bottom": 81,
+    "vcp": 33,
+    "bull_flag": 45,
+    "ascending_triangle": 35,
+    "breakout_retest_hold": 19,
+    "base_on_base": 6,
+    "inverse_head_shoulders": 5,
+    "cup_with_handle": 12,
+    "high_tight_pullback": 8,
+    "tight_consolidation": 1
+  },
+  "by_state": {
+    "forming": 54,
+    "absent": 74,
+    "candidate": 31,
+    "extended": 23,
+    "setup": 45,
+    "breakout_confirmed": 7,
+    "invalidated": 10,
+    "retest_hold": 1
+  },
+  "counters": {
+    "detector_hits": {
+      "double_bottom": 81,
+      "vcp": 33,
+      "bull_flag": 45,
+      "ascending_triangle": 35,
+      "breakout_retest_hold": 19,
+      "base_on_base": 6,
+      "inverse_head_shoulders": 5,
+      "cup_with_handle": 12,
+      "high_tight_pullback": 8,
+      "tight_consolidation": 1
+    },
+    "active_monitor_events": 0,
+    "alerts_by_type": {
+      "setup": 1
+    },
+    "tickers_processed": 99,
+    "tickers_with_errors": 0
+  },
+  "errors": [],
+  "top_5": [
+    {
+      "ticker": "AVGO",
+      "pattern": "breakout_retest_hold",
+      "score": 75.79,
+      "state": "setup"
+    },
+    {
+      "ticker": "LSCC",
+      "pattern": "breakout_retest_hold",
+      "score": 72.88,
+      "state": "setup"
+    },
+    {
+      "ticker": "TXN",
+      "pattern": "breakout_retest_hold",
+      "score": 71.44,
+      "state": "setup"
+    },
+    {
+      "ticker": "DDOG",
+      "pattern": "breakout_retest_hold",
+      "score": 69.69,
+      "state": "setup"
+    },
+    {
+      "ticker": "UUUU",
+      "pattern": "double_bottom",
+      "score": 69.45,
+      "state": "candidate"
+    }
+  ]
+}
