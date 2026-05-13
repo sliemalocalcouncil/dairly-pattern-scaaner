@@ -1,0 +1,80 @@
+{
+  "run_id": "20260513T162626Z-5cf216",
+  "asof": "2026-05-13T16:26:26.545059+00:00",
+  "n_signals": 251,
+  "n_alerts_eligible": 0,
+  "by_pattern": {
+    "double_bottom": 81,
+    "vcp": 35,
+    "bull_flag": 49,
+    "ascending_triangle": 36,
+    "base_on_base": 4,
+    "breakout_retest_hold": 21,
+    "inverse_head_shoulders": 6,
+    "cup_with_handle": 13,
+    "high_tight_pullback": 5,
+    "tight_consolidation": 1
+  },
+  "by_state": {
+    "forming": 65,
+    "invalidated": 26,
+    "candidate": 18,
+    "absent": 89,
+    "extended": 16,
+    "breakout_confirmed": 10,
+    "setup": 27
+  },
+  "counters": {
+    "detector_hits": {
+      "double_bottom": 81,
+      "vcp": 35,
+      "bull_flag": 49,
+      "ascending_triangle": 36,
+      "base_on_base": 4,
+      "breakout_retest_hold": 18,
+      "inverse_head_shoulders": 6,
+      "cup_with_handle": 13,
+      "high_tight_pullback": 5,
+      "tight_consolidation": 1
+    },
+    "active_monitor_events": 3,
+    "alerts_by_type": {
+      "invalidated": 5
+    },
+    "tickers_processed": 99,
+    "tickers_with_errors": 0
+  },
+  "errors": [],
+  "top_5": [
+    {
+      "ticker": "MCHP",
+      "pattern": "double_bottom",
+      "score": 65.45,
+      "state": "candidate"
+    },
+    {
+      "ticker": "VSAT",
+      "pattern": "double_bottom",
+      "score": 65.24,
+      "state": "candidate"
+    },
+    {
+      "ticker": "LRCX",
+      "pattern": "double_bottom",
+      "score": 65.07,
+      "state": "candidate"
+    },
+    {
+      "ticker": "DDOG",
+      "pattern": "high_tight_pullback",
+      "score": 64.88,
+      "state": "candidate"
+    },
+    {
+      "ticker": "ORCL",
+      "pattern": "double_bottom",
+      "score": 64.63,
+      "state": "candidate"
+    }
+  ]
+}
