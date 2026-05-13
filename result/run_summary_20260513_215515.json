@@ -1,0 +1,79 @@
+{
+  "run_id": "20260513T215515Z-9e9067",
+  "asof": "2026-05-13T21:55:15.676204+00:00",
+  "n_signals": 241,
+  "n_alerts_eligible": 2,
+  "by_pattern": {
+    "vcp": 36,
+    "double_bottom": 80,
+    "bull_flag": 47,
+    "ascending_triangle": 32,
+    "base_on_base": 4,
+    "inverse_head_shoulders": 6,
+    "high_tight_pullback": 7,
+    "breakout_retest_hold": 16,
+    "cup_with_handle": 12,
+    "tight_consolidation": 1
+  },
+  "by_state": {
+    "invalidated": 15,
+    "candidate": 24,
+    "absent": 85,
+    "forming": 60,
+    "extended": 15,
+    "breakout_confirmed": 7,
+    "setup": 32,
+    "retest_hold": 3
+  },
+  "counters": {
+    "detector_hits": {
+      "vcp": 36,
+      "double_bottom": 80,
+      "bull_flag": 47,
+      "ascending_triangle": 32,
+      "base_on_base": 4,
+      "inverse_head_shoulders": 6,
+      "high_tight_pullback": 7,
+      "breakout_retest_hold": 16,
+      "cup_with_handle": 12,
+      "tight_consolidation": 1
+    },
+    "active_monitor_events": 0,
+    "alerts_by_type": {},
+    "tickers_processed": 99,
+    "tickers_with_errors": 0
+  },
+  "errors": [],
+  "top_5": [
+    {
+      "ticker": "VOYG",
+      "pattern": "breakout_retest_hold",
+      "score": 74.02,
+      "state": "setup"
+    },
+    {
+      "ticker": "MCHP",
+      "pattern": "double_bottom",
+      "score": 70.96,
+      "state": "candidate"
+    },
+    {
+      "ticker": "VOYG",
+      "pattern": "high_tight_pullback",
+      "score": 69.5,
+      "state": "candidate"
+    },
+    {
+      "ticker": "VSAT",
+      "pattern": "double_bottom",
+      "score": 68.79,
+      "state": "candidate"
+    },
+    {
+      "ticker": "LRCX",
+      "pattern": "double_bottom",
+      "score": 67.62,
+      "state": "candidate"
+    }
+  ]
+}

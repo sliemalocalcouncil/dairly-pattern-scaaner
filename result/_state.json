@@ -1278,7 +1278,7 @@
   "KLAC::double_bottom": {
     "invalid_below": 1669.575,
     "monitored_until": null,
-    "state": "forming",
+    "state": "candidate",
     "trigger": 1897.49
   },
   "KLAC::inverse_head_shoulders": {
@@ -2707,7 +2707,7 @@
   "TSEM::bull_flag": {
     "invalid_below": 239.8475,
     "monitored_until": "2026-05-20T20:00:00+00:00",
-    "state": "breakout_confirmed",
+    "state": "retest_hold",
     "trigger": 267.4199
   },
   "TSEM::double_bottom": {

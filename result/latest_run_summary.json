@@ -1,6 +1,6 @@
 {
-  "run_id": "20260513T202021Z-ec0ffa",
-  "asof": "2026-05-13T20:20:21.520478+00:00",
+  "run_id": "20260513T215515Z-9e9067",
+  "asof": "2026-05-13T21:55:15.676204+00:00",
   "n_signals": 241,
   "n_alerts_eligible": 2,
   "by_pattern": {
@@ -17,13 +17,13 @@
   },
   "by_state": {
     "invalidated": 15,
-    "candidate": 23,
+    "candidate": 24,
     "absent": 85,
-    "forming": 61,
+    "forming": 60,
     "extended": 15,
-    "breakout_confirmed": 8,
+    "breakout_confirmed": 7,
     "setup": 32,
-    "retest_hold": 2
+    "retest_hold": 3
   },
   "counters": {
     "detector_hits": {
@@ -39,10 +39,7 @@
       "tight_consolidation": 1
     },
     "active_monitor_events": 0,
-    "alerts_by_type": {
-      "invalidated": 1,
-      "setup": 1
-    },
+    "alerts_by_type": {},
     "tickers_processed": 99,
     "tickers_with_errors": 0
   },
@@ -51,31 +48,31 @@
     {
       "ticker": "VOYG",
       "pattern": "breakout_retest_hold",
-      "score": 73.92,
+      "score": 74.02,
       "state": "setup"
     },
     {
       "ticker": "MCHP",
       "pattern": "double_bottom",
-      "score": 70.94,
+      "score": 70.96,
       "state": "candidate"
     },
     {
       "ticker": "VOYG",
       "pattern": "high_tight_pullback",
-      "score": 69.39,
+      "score": 69.5,
       "state": "candidate"
     },
     {
       "ticker": "VSAT",
       "pattern": "double_bottom",
-      "score": 68.77,
+      "score": 68.79,
       "state": "candidate"
     },
     {
       "ticker": "LRCX",
       "pattern": "double_bottom",
-      "score": 67.51,
+      "score": 67.62,
       "state": "candidate"
     }
   ]
