@@ -1,0 +1,81 @@
+{
+  "run_id": "20260514T214621Z-804b9f",
+  "asof": "2026-05-14T21:46:21.632319+00:00",
+  "n_signals": 226,
+  "n_alerts_eligible": 4,
+  "by_pattern": {
+    "double_bottom": 76,
+    "vcp": 33,
+    "bull_flag": 44,
+    "ascending_triangle": 34,
+    "base_on_base": 4,
+    "breakout_retest_hold": 12,
+    "high_tight_pullback": 7,
+    "cup_with_handle": 10,
+    "inverse_head_shoulders": 5,
+    "tight_consolidation": 1
+  },
+  "by_state": {
+    "forming": 70,
+    "absent": 80,
+    "candidate": 26,
+    "extended": 12,
+    "invalidated": 9,
+    "setup": 22,
+    "breakout_confirmed": 6,
+    "retest_hold": 1
+  },
+  "counters": {
+    "detector_hits": {
+      "double_bottom": 76,
+      "vcp": 33,
+      "bull_flag": 44,
+      "ascending_triangle": 34,
+      "base_on_base": 4,
+      "breakout_retest_hold": 12,
+      "high_tight_pullback": 7,
+      "cup_with_handle": 10,
+      "inverse_head_shoulders": 5,
+      "tight_consolidation": 1
+    },
+    "active_monitor_events": 0,
+    "alerts_by_type": {
+      "setup": 1
+    },
+    "tickers_processed": 99,
+    "tickers_with_errors": 0
+  },
+  "errors": [],
+  "top_5": [
+    {
+      "ticker": "AMAT",
+      "pattern": "double_bottom",
+      "score": 72.86,
+      "state": "candidate"
+    },
+    {
+      "ticker": "TSEM",
+      "pattern": "high_tight_pullback",
+      "score": 72.48,
+      "state": "candidate"
+    },
+    {
+      "ticker": "TSM",
+      "pattern": "breakout_retest_hold",
+      "score": 70.79,
+      "state": "setup"
+    },
+    {
+      "ticker": "MRVL",
+      "pattern": "breakout_retest_hold",
+      "score": 70.32,
+      "state": "setup"
+    },
+    {
+      "ticker": "COHR",
+      "pattern": "high_tight_pullback",
+      "score": 69.5,
+      "state": "candidate"
+    }
+  ]
+}
