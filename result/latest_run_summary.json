@@ -1,78 +1,81 @@
 {
-  "run_id": "20260513T215515Z-9e9067",
-  "asof": "2026-05-13T21:55:15.676204+00:00",
-  "n_signals": 241,
-  "n_alerts_eligible": 2,
+  "run_id": "20260514T161231Z-f9c3df",
+  "asof": "2026-05-14T16:12:31.357493+00:00",
+  "n_signals": 225,
+  "n_alerts_eligible": 1,
   "by_pattern": {
-    "vcp": 36,
+    "vcp": 33,
     "double_bottom": 80,
-    "bull_flag": 47,
-    "ascending_triangle": 32,
+    "bull_flag": 42,
+    "ascending_triangle": 34,
     "base_on_base": 4,
-    "inverse_head_shoulders": 6,
-    "high_tight_pullback": 7,
-    "breakout_retest_hold": 16,
-    "cup_with_handle": 12,
-    "tight_consolidation": 1
+    "inverse_head_shoulders": 4,
+    "breakout_retest_hold": 13,
+    "high_tight_pullback": 3,
+    "cup_with_handle": 10,
+    "tight_consolidation": 2
   },
   "by_state": {
-    "invalidated": 15,
-    "candidate": 24,
-    "absent": 85,
-    "forming": 60,
-    "extended": 15,
-    "breakout_confirmed": 7,
-    "setup": 32,
-    "retest_hold": 3
+    "absent": 80,
+    "candidate": 19,
+    "forming": 64,
+    "extended": 17,
+    "invalidated": 16,
+    "breakout_failed": 1,
+    "breakout_confirmed": 5,
+    "setup": 23
   },
   "counters": {
     "detector_hits": {
-      "vcp": 36,
+      "vcp": 33,
       "double_bottom": 80,
-      "bull_flag": 47,
-      "ascending_triangle": 32,
+      "bull_flag": 42,
+      "ascending_triangle": 34,
       "base_on_base": 4,
-      "inverse_head_shoulders": 6,
-      "high_tight_pullback": 7,
-      "breakout_retest_hold": 16,
-      "cup_with_handle": 12,
-      "tight_consolidation": 1
+      "inverse_head_shoulders": 4,
+      "breakout_retest_hold": 12,
+      "high_tight_pullback": 3,
+      "cup_with_handle": 10,
+      "tight_consolidation": 2
     },
-    "active_monitor_events": 0,
-    "alerts_by_type": {},
+    "active_monitor_events": 1,
+    "alerts_by_type": {
+      "invalidated": 2,
+      "failed": 1
+    },
     "tickers_processed": 99,
     "tickers_with_errors": 0
   },
   "errors": [],
   "top_5": [
     {
-      "ticker": "VOYG",
-      "pattern": "breakout_retest_hold",
-      "score": 74.02,
-      "state": "setup"
-    },
-    {
-      "ticker": "MCHP",
+      "ticker": "ORCL",
       "pattern": "double_bottom",
-      "score": 70.96,
-      "state": "candidate"
-    },
-    {
-      "ticker": "VOYG",
-      "pattern": "high_tight_pullback",
-      "score": 69.5,
+      "score": 70.01,
       "state": "candidate"
     },
     {
       "ticker": "VSAT",
       "pattern": "double_bottom",
-      "score": 68.79,
+      "score": 68.72,
+      "state": "candidate"
+    },
+    {
+      "ticker": "AMAT",
+      "pattern": "double_bottom",
+      "score": 68.34,
+      "state": "candidate"
+    },
+    {
+      "ticker": "MSTR",
+      "pattern": "double_bottom",
+      "score": 66.67,
       "state": "candidate"
     },
     {
       "ticker": "LRCX",
       "pattern": "double_bottom",
-      "score": 67.62,
+      "score": 66.59,
       "state": "candidate"
     }
   ]
