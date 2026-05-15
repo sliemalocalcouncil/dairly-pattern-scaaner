@@ -492,7 +492,7 @@
     "trigger": 244.07
   },
   "BA::cup_with_handle": {
-    "invalid_below": 217.7244,
+    "invalid_below": 217.14325,
     "monitored_until": null,
     "state": "absent",
     "trigger": 236.45
@@ -647,8 +647,8 @@
   },
   "COHR::inverse_head_shoulders": {
     "invalid_below": 303.774,
-    "monitored_until": "2026-05-22T20:00:00+00:00",
-    "state": "setup",
+    "monitored_until": null,
+    "state": "forming",
     "trigger": 384.85
   },
   "CRM::ascending_triangle": {
@@ -685,7 +685,7 @@
     "last_alert_at": "2026-05-13T18:27:32.900468+00:00",
     "last_alert_score": 40.0,
     "last_alert_type": "invalidated",
-    "state": "forming",
+    "state": "absent",
     "trigger": 193.56
   },
   "CRML::ascending_triangle": {
@@ -783,7 +783,7 @@
   "CRS::vcp": {
     "invalid_below": 408.98184999999995,
     "monitored_until": null,
-    "state": "absent",
+    "state": "invalidated",
     "trigger": 459.18
   },
   "CRWD::ascending_triangle": {
@@ -887,8 +887,8 @@
   },
   "DDOG::double_bottom": {
     "invalid_below": 192.08485,
-    "monitored_until": "2026-05-22T20:00:00+00:00",
-    "state": "setup",
+    "monitored_until": null,
+    "state": "candidate",
     "trigger": 208.0
   },
   "DDOG::high_tight_pullback": {
@@ -1324,8 +1324,8 @@
   },
   "KLAC::breakout_retest_hold": {
     "invalid_below": 1784.52945,
-    "monitored_until": "2026-05-22T20:00:00+00:00",
-    "state": "setup",
+    "monitored_until": null,
+    "state": "candidate",
     "trigger": 1814.125
   },
   "KLAC::bull_flag": {
@@ -1504,7 +1504,7 @@
   "LSCC::double_bottom": {
     "invalid_below": 113.28485,
     "monitored_until": null,
-    "state": "forming",
+    "state": "candidate",
     "trigger": 130.0
   },
   "LSCC::inverse_head_shoulders": {
@@ -2046,7 +2046,7 @@
   "NXPI::double_bottom": {
     "invalid_below": 280.50829999999996,
     "monitored_until": null,
-    "state": "forming",
+    "state": "candidate",
     "trigger": 303.09
   },
   "NXPI::high_tight_pullback": {
@@ -2610,8 +2610,8 @@
   },
   "SNPS::vcp": {
     "invalid_below": 464.5457,
-    "monitored_until": null,
-    "state": "absent",
+    "monitored_until": "2026-05-22T20:00:00+00:00",
+    "state": "setup",
     "trigger": 502.28
   },
   "STM::ascending_triangle": {
@@ -3088,11 +3088,11 @@
   },
   "VSAT::breakout_retest_hold": {
     "invalid_below": 68.6367,
-    "last_alert_at": "2026-05-15T20:06:44.202249+00:00",
-    "last_alert_score": 72.43,
-    "last_alert_type": "breakout",
-    "monitored_until": "2026-05-22T20:00:00+00:00",
-    "state": "breakout_confirmed",
+    "last_alert_at": "2026-05-15T21:37:40.541736+00:00",
+    "last_alert_score": 73.03,
+    "last_alert_type": "failed",
+    "monitored_until": null,
+    "state": "breakout_failed",
     "trigger": 69.81
   },
   "VSAT::bull_flag": {
@@ -3247,7 +3247,7 @@
     "last_alert_score": 40.0,
     "last_alert_type": "invalidated",
     "monitored_until": null,
-    "state": "forming",
+    "state": "absent",
     "trigger": 17.85
   },
   "ZETA::high_tight_pullback": {

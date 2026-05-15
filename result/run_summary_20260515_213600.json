@@ -1,0 +1,82 @@
+{
+  "run_id": "20260515T213600Z-a38c7a",
+  "asof": "2026-05-15T21:36:00.612995+00:00",
+  "n_signals": 267,
+  "n_alerts_eligible": 2,
+  "by_pattern": {
+    "double_bottom": 87,
+    "vcp": 42,
+    "bull_flag": 59,
+    "ascending_triangle": 32,
+    "base_on_base": 3,
+    "inverse_head_shoulders": 11,
+    "cup_with_handle": 10,
+    "high_tight_pullback": 4,
+    "breakout_retest_hold": 18,
+    "tight_consolidation": 1
+  },
+  "by_state": {
+    "absent": 103,
+    "forming": 80,
+    "setup": 25,
+    "invalidated": 18,
+    "candidate": 29,
+    "breakout_confirmed": 5,
+    "extended": 5,
+    "breakout_failed": 1,
+    "retest_hold": 1
+  },
+  "counters": {
+    "detector_hits": {
+      "double_bottom": 87,
+      "vcp": 42,
+      "bull_flag": 59,
+      "ascending_triangle": 32,
+      "base_on_base": 3,
+      "inverse_head_shoulders": 11,
+      "cup_with_handle": 10,
+      "high_tight_pullback": 4,
+      "breakout_retest_hold": 18,
+      "tight_consolidation": 1
+    },
+    "active_monitor_events": 0,
+    "alerts_by_type": {
+      "failed": 1
+    },
+    "tickers_processed": 99,
+    "tickers_with_errors": 0
+  },
+  "errors": [],
+  "top_5": [
+    {
+      "ticker": "VSAT",
+      "pattern": "breakout_retest_hold",
+      "score": 73.03,
+      "state": "breakout_failed"
+    },
+    {
+      "ticker": "ORCL",
+      "pattern": "breakout_retest_hold",
+      "score": 70.34,
+      "state": "setup"
+    },
+    {
+      "ticker": "VSAT",
+      "pattern": "double_bottom",
+      "score": 68.8,
+      "state": "candidate"
+    },
+    {
+      "ticker": "TSEM",
+      "pattern": "high_tight_pullback",
+      "score": 68.01,
+      "state": "candidate"
+    },
+    {
+      "ticker": "AVGO",
+      "pattern": "breakout_retest_hold",
+      "score": 67.11,
+      "state": "setup"
+    }
+  ]
+}
