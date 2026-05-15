@@ -1,0 +1,82 @@
+{
+  "run_id": "20260515T160712Z-7412b5",
+  "asof": "2026-05-15T16:07:12.628244+00:00",
+  "n_signals": 250,
+  "n_alerts_eligible": 0,
+  "by_pattern": {
+    "double_bottom": 76,
+    "vcp": 41,
+    "bull_flag": 50,
+    "ascending_triangle": 35,
+    "base_on_base": 3,
+    "high_tight_pullback": 6,
+    "cup_with_handle": 10,
+    "breakout_retest_hold": 23,
+    "inverse_head_shoulders": 5,
+    "tight_consolidation": 1
+  },
+  "by_state": {
+    "forming": 71,
+    "absent": 93,
+    "setup": 22,
+    "invalidated": 34,
+    "breakout_failed": 4,
+    "candidate": 13,
+    "breakout_confirmed": 6,
+    "extended": 7
+  },
+  "counters": {
+    "detector_hits": {
+      "double_bottom": 76,
+      "vcp": 41,
+      "bull_flag": 50,
+      "ascending_triangle": 35,
+      "base_on_base": 3,
+      "high_tight_pullback": 6,
+      "cup_with_handle": 10,
+      "breakout_retest_hold": 13,
+      "inverse_head_shoulders": 5,
+      "tight_consolidation": 1
+    },
+    "active_monitor_events": 10,
+    "alerts_by_type": {
+      "invalidated": 9,
+      "failed": 1
+    },
+    "tickers_processed": 99,
+    "tickers_with_errors": 0
+  },
+  "errors": [],
+  "top_5": [
+    {
+      "ticker": "ORCL",
+      "pattern": "breakout_retest_hold",
+      "score": 69.85,
+      "state": "setup"
+    },
+    {
+      "ticker": "AMAT",
+      "pattern": "double_bottom",
+      "score": 66.31,
+      "state": "candidate"
+    },
+    {
+      "ticker": "MCHP",
+      "pattern": "double_bottom",
+      "score": 66.04,
+      "state": "candidate"
+    },
+    {
+      "ticker": "KLAC",
+      "pattern": "breakout_retest_hold",
+      "score": 62.94,
+      "state": "setup"
+    },
+    {
+      "ticker": "MSTR",
+      "pattern": "double_bottom",
+      "score": 62.62,
+      "state": "candidate"
+    }
+  ]
+}
