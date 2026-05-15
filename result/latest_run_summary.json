@@ -1,47 +1,45 @@
 {
-  "run_id": "20260515T160712Z-7412b5",
-  "asof": "2026-05-15T16:07:12.628244+00:00",
-  "n_signals": 250,
+  "run_id": "20260515T180809Z-748506",
+  "asof": "2026-05-15T18:08:09.500274+00:00",
+  "n_signals": 262,
   "n_alerts_eligible": 0,
   "by_pattern": {
-    "double_bottom": 76,
+    "double_bottom": 82,
     "vcp": 41,
-    "bull_flag": 50,
-    "ascending_triangle": 35,
+    "bull_flag": 58,
+    "ascending_triangle": 34,
     "base_on_base": 3,
-    "high_tight_pullback": 6,
+    "breakout_retest_hold": 20,
     "cup_with_handle": 10,
-    "breakout_retest_hold": 23,
-    "inverse_head_shoulders": 5,
+    "high_tight_pullback": 4,
+    "inverse_head_shoulders": 9,
     "tight_consolidation": 1
   },
   "by_state": {
-    "forming": 71,
-    "absent": 93,
-    "setup": 22,
-    "invalidated": 34,
-    "breakout_failed": 4,
+    "forming": 84,
+    "absent": 101,
+    "setup": 29,
+    "invalidated": 23,
     "candidate": 13,
     "breakout_confirmed": 6,
-    "extended": 7
+    "extended": 6
   },
   "counters": {
     "detector_hits": {
-      "double_bottom": 76,
+      "double_bottom": 82,
       "vcp": 41,
-      "bull_flag": 50,
-      "ascending_triangle": 35,
+      "bull_flag": 58,
+      "ascending_triangle": 34,
       "base_on_base": 3,
-      "high_tight_pullback": 6,
       "cup_with_handle": 10,
-      "breakout_retest_hold": 13,
-      "inverse_head_shoulders": 5,
+      "high_tight_pullback": 4,
+      "inverse_head_shoulders": 9,
+      "breakout_retest_hold": 19,
       "tight_consolidation": 1
     },
-    "active_monitor_events": 10,
+    "active_monitor_events": 1,
     "alerts_by_type": {
-      "invalidated": 9,
-      "failed": 1
+      "invalidated": 1
     },
     "tickers_processed": 99,
     "tickers_with_errors": 0
@@ -51,31 +49,31 @@
     {
       "ticker": "ORCL",
       "pattern": "breakout_retest_hold",
-      "score": 69.85,
+      "score": 69.43,
+      "state": "setup"
+    },
+    {
+      "ticker": "ORCL",
+      "pattern": "double_bottom",
+      "score": 64.87,
+      "state": "candidate"
+    },
+    {
+      "ticker": "TSEM",
+      "pattern": "high_tight_pullback",
+      "score": 63.75,
+      "state": "candidate"
+    },
+    {
+      "ticker": "AVGO",
+      "pattern": "breakout_retest_hold",
+      "score": 63.49,
       "state": "setup"
     },
     {
       "ticker": "AMAT",
       "pattern": "double_bottom",
-      "score": 66.31,
-      "state": "candidate"
-    },
-    {
-      "ticker": "MCHP",
-      "pattern": "double_bottom",
-      "score": 66.04,
-      "state": "candidate"
-    },
-    {
-      "ticker": "KLAC",
-      "pattern": "breakout_retest_hold",
-      "score": 62.94,
-      "state": "setup"
-    },
-    {
-      "ticker": "MSTR",
-      "pattern": "double_bottom",
-      "score": 62.62,
+      "score": 63.28,
       "state": "candidate"
     }
   ]
