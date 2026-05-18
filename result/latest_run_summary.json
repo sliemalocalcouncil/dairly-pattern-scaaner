@@ -1,43 +1,43 @@
 {
-  "run_id": "20260518T185609Z-ecafab",
-  "asof": "2026-05-18T18:56:09.809560+00:00",
-  "n_signals": 257,
-  "n_alerts_eligible": 0,
+  "run_id": "20260518T204145Z-30beb0",
+  "asof": "2026-05-18T20:41:45.958756+00:00",
+  "n_signals": 254,
+  "n_alerts_eligible": 1,
   "by_pattern": {
-    "double_bottom": 91,
-    "bull_flag": 57,
+    "double_bottom": 89,
+    "bull_flag": 54,
     "vcp": 39,
     "ascending_triangle": 25,
     "base_on_base": 4,
+    "breakout_retest_hold": 18,
     "inverse_head_shoulders": 8,
-    "breakout_retest_hold": 17,
     "cup_with_handle": 9,
     "high_tight_pullback": 6,
-    "tight_consolidation": 1
+    "tight_consolidation": 2
   },
   "by_state": {
-    "extended": 7,
-    "invalidated": 39,
-    "absent": 100,
-    "forming": 81,
-    "setup": 16,
-    "breakout_confirmed": 3,
-    "candidate": 11
+    "extended": 9,
+    "forming": 72,
+    "absent": 93,
+    "invalidated": 30,
+    "setup": 29,
+    "candidate": 14,
+    "breakout_confirmed": 7
   },
   "counters": {
     "detector_hits": {
-      "double_bottom": 91,
-      "bull_flag": 57,
+      "double_bottom": 89,
+      "bull_flag": 54,
       "vcp": 39,
       "ascending_triangle": 25,
       "base_on_base": 4,
+      "breakout_retest_hold": 18,
       "inverse_head_shoulders": 8,
-      "breakout_retest_hold": 16,
       "cup_with_handle": 9,
       "high_tight_pullback": 6,
-      "tight_consolidation": 1
+      "tight_consolidation": 2
     },
-    "active_monitor_events": 1,
+    "active_monitor_events": 0,
     "alerts_by_type": {},
     "tickers_processed": 99,
     "tickers_with_errors": 0
@@ -45,33 +45,33 @@
   "errors": [],
   "top_5": [
     {
+      "ticker": "LSCC",
+      "pattern": "double_bottom",
+      "score": 70.84,
+      "state": "candidate"
+    },
+    {
       "ticker": "VSAT",
       "pattern": "breakout_retest_hold",
-      "score": 69.95,
+      "score": 69.62,
       "state": "breakout_confirmed"
     },
     {
       "ticker": "VSAT",
       "pattern": "double_bottom",
-      "score": 69.09,
-      "state": "candidate"
-    },
-    {
-      "ticker": "LSCC",
-      "pattern": "double_bottom",
-      "score": 67.99,
+      "score": 69.22,
       "state": "candidate"
     },
     {
       "ticker": "DDOG",
       "pattern": "breakout_retest_hold",
-      "score": 66.88,
+      "score": 68.91,
       "state": "setup"
     },
     {
-      "ticker": "VOYG",
-      "pattern": "high_tight_pullback",
-      "score": 64.67,
+      "ticker": "LUNR",
+      "pattern": "double_bottom",
+      "score": 67.03,
       "state": "candidate"
     }
   ]
