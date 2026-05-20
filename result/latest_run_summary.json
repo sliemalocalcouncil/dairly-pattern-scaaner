@@ -1,78 +1,80 @@
 {
-  "run_id": "20260520T165805Z-443d0d",
-  "asof": "2026-05-20T16:58:05.176314+00:00",
-  "n_signals": 222,
-  "n_alerts_eligible": 0,
+  "run_id": "20260520T193213Z-247d26",
+  "asof": "2026-05-20T19:32:13.215971+00:00",
+  "n_signals": 229,
+  "n_alerts_eligible": 2,
   "by_pattern": {
-    "bull_flag": 55,
-    "double_bottom": 76,
-    "vcp": 40,
+    "bull_flag": 54,
+    "double_bottom": 74,
+    "vcp": 38,
     "inverse_head_shoulders": 6,
-    "ascending_triangle": 14,
-    "breakout_retest_hold": 13,
+    "ascending_triangle": 19,
+    "breakout_retest_hold": 18,
     "cup_with_handle": 12,
+    "high_tight_pullback": 4,
     "base_on_base": 3,
-    "high_tight_pullback": 2,
     "tight_consolidation": 1
   },
   "by_state": {
-    "forming": 77,
+    "forming": 83,
     "absent": 90,
-    "candidate": 8,
-    "setup": 28,
-    "breakout_confirmed": 2,
-    "invalidated": 9,
-    "breakout_failed": 1,
-    "extended": 7
+    "candidate": 11,
+    "setup": 29,
+    "breakout_confirmed": 3,
+    "invalidated": 7,
+    "extended": 5,
+    "retest_hold": 1
   },
   "counters": {
     "detector_hits": {
-      "bull_flag": 55,
-      "double_bottom": 76,
-      "vcp": 40,
+      "bull_flag": 54,
+      "double_bottom": 74,
+      "vcp": 38,
       "inverse_head_shoulders": 6,
-      "ascending_triangle": 14,
-      "breakout_retest_hold": 13,
+      "ascending_triangle": 19,
+      "breakout_retest_hold": 18,
       "cup_with_handle": 12,
+      "high_tight_pullback": 4,
       "base_on_base": 3,
-      "high_tight_pullback": 2,
       "tight_consolidation": 1
     },
     "active_monitor_events": 0,
-    "alerts_by_type": {},
+    "alerts_by_type": {
+      "retest": 1
+    },
     "tickers_processed": 99,
     "tickers_with_errors": 0
   },
   "errors": [],
   "top_5": [
     {
-      "ticker": "SATS",
-      "pattern": "double_bottom",
-      "score": 66.85,
+      "ticker": "VSAT",
+      "pattern": "breakout_retest_hold",
+      "score": 76.7,
+      "state": "retest_hold"
+    },
+    {
+      "ticker": "VSAT",
+      "pattern": "bull_flag",
+      "score": 70.43,
       "state": "candidate"
     },
     {
-      "ticker": "PL",
-      "pattern": "double_bottom",
-      "score": 66.01,
-      "state": "candidate"
-    },
-    {
-      "ticker": "LSCC",
-      "pattern": "double_bottom",
-      "score": 65.97,
+      "ticker": "INTC",
+      "pattern": "breakout_retest_hold",
+      "score": 69.15,
       "state": "setup"
     },
     {
-      "ticker": "TXN",
+      "ticker": "PL",
       "pattern": "breakout_retest_hold",
-      "score": 63.55,
-      "state": "breakout_confirmed"
+      "score": 68.73,
+      "state": "setup"
     },
     {
-      "ticker": "PANW",
+      "ticker": "SATS",
       "pattern": "double_bottom",
-      "score": 62.02,
+      "score": 68.52,
       "state": "candidate"
     }
   ]
