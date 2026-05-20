@@ -1,14 +1,14 @@
 {
-  "run_id": "20260520T193213Z-247d26",
-  "asof": "2026-05-20T19:32:13.215971+00:00",
-  "n_signals": 229,
-  "n_alerts_eligible": 2,
+  "run_id": "20260520T220151Z-1fef37",
+  "asof": "2026-05-20T22:01:51.564513+00:00",
+  "n_signals": 230,
+  "n_alerts_eligible": 1,
   "by_pattern": {
     "bull_flag": 54,
-    "double_bottom": 74,
-    "vcp": 38,
+    "double_bottom": 75,
+    "vcp": 39,
     "inverse_head_shoulders": 6,
-    "ascending_triangle": 19,
+    "ascending_triangle": 18,
     "breakout_retest_hold": 18,
     "cup_with_handle": 12,
     "high_tight_pullback": 4,
@@ -16,22 +16,21 @@
     "tight_consolidation": 1
   },
   "by_state": {
-    "forming": 83,
+    "forming": 75,
     "absent": 90,
-    "candidate": 11,
-    "setup": 29,
-    "breakout_confirmed": 3,
-    "invalidated": 7,
-    "extended": 5,
-    "retest_hold": 1
+    "setup": 31,
+    "invalidated": 8,
+    "candidate": 13,
+    "breakout_confirmed": 5,
+    "extended": 8
   },
   "counters": {
     "detector_hits": {
       "bull_flag": 54,
-      "double_bottom": 74,
-      "vcp": 38,
+      "double_bottom": 75,
+      "vcp": 39,
       "inverse_head_shoulders": 6,
-      "ascending_triangle": 19,
+      "ascending_triangle": 18,
       "breakout_retest_hold": 18,
       "cup_with_handle": 12,
       "high_tight_pullback": 4,
@@ -39,43 +38,41 @@
       "tight_consolidation": 1
     },
     "active_monitor_events": 0,
-    "alerts_by_type": {
-      "retest": 1
-    },
+    "alerts_by_type": {},
     "tickers_processed": 99,
     "tickers_with_errors": 0
   },
   "errors": [],
   "top_5": [
     {
-      "ticker": "VSAT",
-      "pattern": "breakout_retest_hold",
-      "score": 76.7,
-      "state": "retest_hold"
-    },
-    {
-      "ticker": "VSAT",
-      "pattern": "bull_flag",
-      "score": 70.43,
+      "ticker": "SATS",
+      "pattern": "double_bottom",
+      "score": 70.61,
       "state": "candidate"
     },
     {
       "ticker": "INTC",
       "pattern": "breakout_retest_hold",
-      "score": 69.15,
+      "score": 69.65,
       "state": "setup"
     },
     {
       "ticker": "PL",
       "pattern": "breakout_retest_hold",
-      "score": 68.73,
+      "score": 69.43,
       "state": "setup"
     },
     {
-      "ticker": "SATS",
+      "ticker": "MRVL",
+      "pattern": "breakout_retest_hold",
+      "score": 69.08,
+      "state": "setup"
+    },
+    {
+      "ticker": "VSAT",
       "pattern": "double_bottom",
-      "score": 68.52,
-      "state": "candidate"
+      "score": 68.66,
+      "state": "breakout_confirmed"
     }
   ]
 }
