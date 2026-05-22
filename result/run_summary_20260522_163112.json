@@ -1,0 +1,80 @@
+{
+  "run_id": "20260522T163112Z-795696",
+  "asof": "2026-05-22T16:31:12.007380+00:00",
+  "n_signals": 194,
+  "n_alerts_eligible": 0,
+  "by_pattern": {
+    "double_bottom": 80,
+    "bull_flag": 19,
+    "high_tight_pullback": 3,
+    "vcp": 39,
+    "ascending_triangle": 18,
+    "cup_with_handle": 12,
+    "inverse_head_shoulders": 11,
+    "base_on_base": 3,
+    "breakout_retest_hold": 7,
+    "tight_consolidation": 2
+  },
+  "by_state": {
+    "candidate": 10,
+    "forming": 57,
+    "absent": 55,
+    "extended": 10,
+    "setup": 47,
+    "invalidated": 8,
+    "breakout_confirmed": 4,
+    "breakout_failed": 2,
+    "retest_hold": 1
+  },
+  "counters": {
+    "detector_hits": {
+      "double_bottom": 80,
+      "bull_flag": 19,
+      "high_tight_pullback": 3,
+      "vcp": 39,
+      "ascending_triangle": 18,
+      "cup_with_handle": 12,
+      "inverse_head_shoulders": 11,
+      "base_on_base": 3,
+      "breakout_retest_hold": 7,
+      "tight_consolidation": 2
+    },
+    "active_monitor_events": 0,
+    "alerts_by_type": {},
+    "tickers_processed": 99,
+    "tickers_with_errors": 0
+  },
+  "errors": [],
+  "top_5": [
+    {
+      "ticker": "PL",
+      "pattern": "double_bottom",
+      "score": 66.54,
+      "state": "candidate"
+    },
+    {
+      "ticker": "ORCL",
+      "pattern": "double_bottom",
+      "score": 65.54,
+      "state": "candidate"
+    },
+    {
+      "ticker": "TSM",
+      "pattern": "breakout_retest_hold",
+      "score": 65.48,
+      "state": "setup"
+    },
+    {
+      "ticker": "APP",
+      "pattern": "cup_with_handle",
+      "score": 63.91,
+      "state": "candidate"
+    },
+    {
+      "ticker": "BHP",
+      "pattern": "breakout_retest_hold",
+      "score": 63.69,
+      "state": "setup"
+    }
+  ]
+}
