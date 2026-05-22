@@ -1,0 +1,81 @@
+{
+  "run_id": "20260522T204456Z-dd9565",
+  "asof": "2026-05-22T20:44:56.183048+00:00",
+  "n_signals": 232,
+  "n_alerts_eligible": 5,
+  "by_pattern": {
+    "double_bottom": 83,
+    "bull_flag": 27,
+    "vcp": 40,
+    "breakout_retest_hold": 17,
+    "inverse_head_shoulders": 13,
+    "high_tight_pullback": 16,
+    "ascending_triangle": 19,
+    "cup_with_handle": 12,
+    "base_on_base": 3,
+    "tight_consolidation": 2
+  },
+  "by_state": {
+    "candidate": 31,
+    "absent": 66,
+    "forming": 62,
+    "setup": 47,
+    "extended": 8,
+    "invalidated": 6,
+    "breakout_confirmed": 12
+  },
+  "counters": {
+    "detector_hits": {
+      "double_bottom": 83,
+      "bull_flag": 27,
+      "vcp": 40,
+      "breakout_retest_hold": 16,
+      "inverse_head_shoulders": 13,
+      "high_tight_pullback": 16,
+      "ascending_triangle": 19,
+      "cup_with_handle": 12,
+      "base_on_base": 3,
+      "tight_consolidation": 2
+    },
+    "active_monitor_events": 1,
+    "alerts_by_type": {
+      "watch": 1,
+      "setup": 1
+    },
+    "tickers_processed": 99,
+    "tickers_with_errors": 0
+  },
+  "errors": [],
+  "top_5": [
+    {
+      "ticker": "LRCX",
+      "pattern": "high_tight_pullback",
+      "score": 74.45,
+      "state": "candidate"
+    },
+    {
+      "ticker": "PL",
+      "pattern": "breakout_retest_hold",
+      "score": 73.8,
+      "state": "setup"
+    },
+    {
+      "ticker": "TSEM",
+      "pattern": "breakout_retest_hold",
+      "score": 73.48,
+      "state": "setup"
+    },
+    {
+      "ticker": "DDOG",
+      "pattern": "breakout_retest_hold",
+      "score": 73.31,
+      "state": "setup"
+    },
+    {
+      "ticker": "ORCL",
+      "pattern": "breakout_retest_hold",
+      "score": 70.99,
+      "state": "setup"
+    }
+  ]
+}
