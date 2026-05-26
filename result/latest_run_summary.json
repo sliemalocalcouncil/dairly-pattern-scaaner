@@ -1,47 +1,48 @@
 {
-  "run_id": "20260526T193508Z-f24e56",
-  "asof": "2026-05-26T19:35:08.922134+00:00",
-  "n_signals": 266,
-  "n_alerts_eligible": 6,
+  "run_id": "20260526T215240Z-53f8dd",
+  "asof": "2026-05-26T21:52:40.512331+00:00",
+  "n_signals": 269,
+  "n_alerts_eligible": 8,
   "by_pattern": {
-    "double_bottom": 80,
-    "bull_flag": 28,
-    "cup_with_handle": 13,
+    "double_bottom": 81,
+    "bull_flag": 29,
     "high_tight_pullback": 30,
-    "inverse_head_shoulders": 22,
-    "vcp": 36,
+    "inverse_head_shoulders": 23,
+    "vcp": 37,
     "ascending_triangle": 26,
     "breakout_retest_hold": 27,
+    "cup_with_handle": 12,
     "base_on_base": 3,
     "tight_consolidation": 1
   },
   "by_state": {
-    "setup": 66,
-    "forming": 69,
+    "setup": 63,
+    "forming": 68,
+    "candidate": 33,
+    "absent": 65,
     "extended": 22,
-    "candidate": 31,
-    "absent": 64,
-    "invalidated": 5,
-    "breakout_confirmed": 7,
-    "retest_hold": 2
+    "invalidated": 6,
+    "breakout_confirmed": 9,
+    "retest_hold": 3
   },
   "counters": {
     "detector_hits": {
-      "double_bottom": 80,
-      "bull_flag": 28,
-      "cup_with_handle": 13,
+      "double_bottom": 81,
+      "bull_flag": 29,
       "high_tight_pullback": 30,
-      "inverse_head_shoulders": 22,
-      "vcp": 36,
+      "inverse_head_shoulders": 23,
+      "vcp": 37,
       "ascending_triangle": 26,
-      "breakout_retest_hold": 27,
+      "breakout_retest_hold": 26,
+      "cup_with_handle": 12,
       "base_on_base": 3,
       "tight_consolidation": 1
     },
-    "active_monitor_events": 0,
+    "active_monitor_events": 1,
     "alerts_by_type": {
-      "watch": 3,
-      "setup": 3
+      "invalidated": 1,
+      "setup": 1,
+      "watch": 1
     },
     "tickers_processed": 99,
     "tickers_with_errors": 0
@@ -51,31 +52,31 @@
     {
       "ticker": "LSCC",
       "pattern": "high_tight_pullback",
-      "score": 75.13,
+      "score": 76.2,
       "state": "setup"
     },
     {
       "ticker": "IRDM",
       "pattern": "high_tight_pullback",
-      "score": 73.84,
-      "state": "candidate"
-    },
-    {
-      "ticker": "WULF",
-      "pattern": "high_tight_pullback",
-      "score": 72.44,
+      "score": 74.88,
       "state": "candidate"
     },
     {
       "ticker": "MKSI",
       "pattern": "high_tight_pullback",
-      "score": 71.87,
+      "score": 73.27,
       "state": "candidate"
     },
     {
-      "ticker": "TSM",
+      "ticker": "WULF",
+      "pattern": "high_tight_pullback",
+      "score": 73.23,
+      "state": "candidate"
+    },
+    {
+      "ticker": "INTC",
       "pattern": "breakout_retest_hold",
-      "score": 71.5,
+      "score": 71.88,
       "state": "setup"
     }
   ]
