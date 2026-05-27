@@ -1,0 +1,84 @@
+{
+  "run_id": "20260527T172550Z-9f840a",
+  "asof": "2026-05-27T17:25:50.648459+00:00",
+  "n_signals": 256,
+  "n_alerts_eligible": 1,
+  "by_pattern": {
+    "double_bottom": 81,
+    "inverse_head_shoulders": 23,
+    "vcp": 36,
+    "bull_flag": 30,
+    "ascending_triangle": 25,
+    "breakout_retest_hold": 29,
+    "high_tight_pullback": 17,
+    "cup_with_handle": 11,
+    "base_on_base": 3,
+    "tight_consolidation": 1
+  },
+  "by_state": {
+    "setup": 44,
+    "forming": 70,
+    "absent": 79,
+    "invalidated": 14,
+    "candidate": 15,
+    "extended": 23,
+    "breakout_confirmed": 5,
+    "retest_hold": 3,
+    "breakout_failed": 3
+  },
+  "counters": {
+    "detector_hits": {
+      "double_bottom": 81,
+      "inverse_head_shoulders": 23,
+      "vcp": 36,
+      "bull_flag": 30,
+      "ascending_triangle": 24,
+      "breakout_retest_hold": 21,
+      "high_tight_pullback": 17,
+      "cup_with_handle": 11,
+      "base_on_base": 3,
+      "tight_consolidation": 1
+    },
+    "active_monitor_events": 9,
+    "alerts_by_type": {
+      "invalidated": 3,
+      "failed": 3,
+      "setup": 1
+    },
+    "tickers_processed": 99,
+    "tickers_with_errors": 0
+  },
+  "errors": [],
+  "top_5": [
+    {
+      "ticker": "SIRI",
+      "pattern": "breakout_retest_hold",
+      "score": 72.31,
+      "state": "setup"
+    },
+    {
+      "ticker": "PL",
+      "pattern": "high_tight_pullback",
+      "score": 66.88,
+      "state": "candidate"
+    },
+    {
+      "ticker": "FTNT",
+      "pattern": "breakout_retest_hold",
+      "score": 66.65,
+      "state": "candidate"
+    },
+    {
+      "ticker": "ORCL",
+      "pattern": "breakout_retest_hold",
+      "score": 64.77,
+      "state": "candidate"
+    },
+    {
+      "ticker": "COHR",
+      "pattern": "double_bottom",
+      "score": 64.68,
+      "state": "candidate"
+    }
+  ]
+}
