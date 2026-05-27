@@ -1,0 +1,82 @@
+{
+  "run_id": "20260527T193811Z-c3d30a",
+  "asof": "2026-05-27T19:38:11.120701+00:00",
+  "n_signals": 289,
+  "n_alerts_eligible": 2,
+  "by_pattern": {
+    "double_bottom": 77,
+    "high_tight_pullback": 29,
+    "bull_flag": 40,
+    "inverse_head_shoulders": 21,
+    "vcp": 36,
+    "ascending_triangle": 37,
+    "breakout_retest_hold": 34,
+    "cup_with_handle": 11,
+    "base_on_base": 3,
+    "tight_consolidation": 1
+  },
+  "by_state": {
+    "forming": 110,
+    "extended": 16,
+    "absent": 76,
+    "setup": 43,
+    "invalidated": 9,
+    "candidate": 29,
+    "breakout_confirmed": 2,
+    "retest_hold": 1,
+    "breakout_failed": 3
+  },
+  "counters": {
+    "detector_hits": {
+      "double_bottom": 77,
+      "high_tight_pullback": 29,
+      "bull_flag": 40,
+      "inverse_head_shoulders": 21,
+      "vcp": 36,
+      "ascending_triangle": 37,
+      "breakout_retest_hold": 33,
+      "cup_with_handle": 11,
+      "base_on_base": 3,
+      "tight_consolidation": 1
+    },
+    "active_monitor_events": 1,
+    "alerts_by_type": {
+      "watch": 1
+    },
+    "tickers_processed": 99,
+    "tickers_with_errors": 0
+  },
+  "errors": [],
+  "top_5": [
+    {
+      "ticker": "SIRI",
+      "pattern": "breakout_retest_hold",
+      "score": 73.02,
+      "state": "setup"
+    },
+    {
+      "ticker": "IRDM",
+      "pattern": "breakout_retest_hold",
+      "score": 70.52,
+      "state": "candidate"
+    },
+    {
+      "ticker": "MCHP",
+      "pattern": "breakout_retest_hold",
+      "score": 69.14,
+      "state": "setup"
+    },
+    {
+      "ticker": "AVGO",
+      "pattern": "breakout_retest_hold",
+      "score": 68.67,
+      "state": "setup"
+    },
+    {
+      "ticker": "DDOG",
+      "pattern": "breakout_retest_hold",
+      "score": 67.99,
+      "state": "setup"
+    }
+  ]
+}
