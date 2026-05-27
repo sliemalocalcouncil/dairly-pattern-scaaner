@@ -1,30 +1,29 @@
 {
-  "run_id": "20260527T193811Z-c3d30a",
-  "asof": "2026-05-27T19:38:11.120701+00:00",
-  "n_signals": 289,
-  "n_alerts_eligible": 2,
+  "run_id": "20260527T220247Z-1ff251",
+  "asof": "2026-05-27T22:02:47.223530+00:00",
+  "n_signals": 288,
+  "n_alerts_eligible": 3,
   "by_pattern": {
     "double_bottom": 77,
     "high_tight_pullback": 29,
     "bull_flag": 40,
     "inverse_head_shoulders": 21,
-    "vcp": 36,
+    "vcp": 37,
     "ascending_triangle": 37,
-    "breakout_retest_hold": 34,
+    "breakout_retest_hold": 32,
     "cup_with_handle": 11,
     "base_on_base": 3,
     "tight_consolidation": 1
   },
   "by_state": {
-    "forming": 110,
-    "extended": 16,
-    "absent": 76,
-    "setup": 43,
-    "invalidated": 9,
-    "candidate": 29,
-    "breakout_confirmed": 2,
-    "retest_hold": 1,
-    "breakout_failed": 3
+    "forming": 112,
+    "extended": 12,
+    "absent": 79,
+    "setup": 41,
+    "invalidated": 8,
+    "candidate": 31,
+    "breakout_confirmed": 4,
+    "retest_hold": 1
   },
   "counters": {
     "detector_hits": {
@@ -32,16 +31,16 @@
       "high_tight_pullback": 29,
       "bull_flag": 40,
       "inverse_head_shoulders": 21,
-      "vcp": 36,
+      "vcp": 37,
       "ascending_triangle": 37,
-      "breakout_retest_hold": 33,
+      "breakout_retest_hold": 32,
       "cup_with_handle": 11,
       "base_on_base": 3,
       "tight_consolidation": 1
     },
-    "active_monitor_events": 1,
+    "active_monitor_events": 0,
     "alerts_by_type": {
-      "watch": 1
+      "setup": 1
     },
     "tickers_processed": 99,
     "tickers_with_errors": 0
@@ -51,31 +50,31 @@
     {
       "ticker": "SIRI",
       "pattern": "breakout_retest_hold",
-      "score": 73.02,
+      "score": 73.27,
       "state": "setup"
     },
     {
       "ticker": "IRDM",
       "pattern": "breakout_retest_hold",
-      "score": 70.52,
+      "score": 72.93,
       "state": "candidate"
     },
     {
       "ticker": "MCHP",
       "pattern": "breakout_retest_hold",
-      "score": 69.14,
+      "score": 70.0,
       "state": "setup"
     },
     {
       "ticker": "AVGO",
       "pattern": "breakout_retest_hold",
-      "score": 68.67,
+      "score": 69.23,
       "state": "setup"
     },
     {
-      "ticker": "DDOG",
+      "ticker": "MPWR",
       "pattern": "breakout_retest_hold",
-      "score": 67.99,
+      "score": 68.5,
       "state": "setup"
     }
   ]
