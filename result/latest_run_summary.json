@@ -1,46 +1,48 @@
 {
-  "run_id": "20260601T222224Z-b745ee",
-  "asof": "2026-06-01T22:22:24.540134+00:00",
-  "n_signals": 300,
-  "n_alerts_eligible": 1,
+  "run_id": "20260602T180838Z-d1fef1",
+  "asof": "2026-06-02T18:08:38.477874+00:00",
+  "n_signals": 283,
+  "n_alerts_eligible": 0,
   "by_pattern": {
-    "double_bottom": 107,
-    "ascending_triangle": 41,
-    "bull_flag": 49,
-    "breakout_retest_hold": 24,
-    "vcp": 34,
-    "cup_with_handle": 14,
+    "double_bottom": 100,
+    "bull_flag": 43,
+    "vcp": 38,
+    "ascending_triangle": 37,
+    "cup_with_handle": 15,
+    "breakout_retest_hold": 20,
     "high_tight_pullback": 19,
-    "base_on_base": 5,
-    "inverse_head_shoulders": 7
+    "base_on_base": 6,
+    "inverse_head_shoulders": 4,
+    "tight_consolidation": 1
   },
   "by_state": {
-    "extended": 32,
-    "setup": 38,
-    "absent": 84,
-    "forming": 85,
-    "candidate": 35,
-    "breakout_confirmed": 7,
-    "invalidated": 12,
-    "retest_hold": 5,
-    "breakout_failed": 2
+    "extended": 31,
+    "forming": 95,
+    "setup": 46,
+    "absent": 78,
+    "candidate": 20,
+    "invalidated": 7,
+    "breakout_failed": 2,
+    "breakout_confirmed": 3,
+    "retest_hold": 1
   },
   "counters": {
     "detector_hits": {
-      "double_bottom": 107,
-      "ascending_triangle": 41,
-      "bull_flag": 49,
-      "breakout_retest_hold": 24,
-      "vcp": 34,
-      "cup_with_handle": 14,
+      "double_bottom": 100,
+      "bull_flag": 43,
+      "vcp": 37,
+      "ascending_triangle": 37,
+      "cup_with_handle": 15,
+      "breakout_retest_hold": 16,
       "high_tight_pullback": 19,
-      "base_on_base": 5,
-      "inverse_head_shoulders": 7
+      "base_on_base": 6,
+      "inverse_head_shoulders": 4,
+      "tight_consolidation": 1
     },
-    "active_monitor_events": 0,
+    "active_monitor_events": 5,
     "alerts_by_type": {
-      "invalidated": 1,
-      "failed": 1
+      "failed": 2,
+      "invalidated": 2
     },
     "tickers_processed": 122,
     "tickers_with_errors": 0
@@ -48,33 +50,33 @@
   "errors": [],
   "top_5": [
     {
-      "ticker": "MOD",
-      "pattern": "double_bottom",
-      "score": 70.74,
-      "state": "setup"
-    },
-    {
-      "ticker": "MKSI",
-      "pattern": "breakout_retest_hold",
-      "score": 69.72,
-      "state": "setup"
-    },
-    {
-      "ticker": "WDAY",
+      "ticker": "APP",
       "pattern": "high_tight_pullback",
-      "score": 68.95,
+      "score": 68.61,
       "state": "candidate"
     },
     {
-      "ticker": "APP",
+      "ticker": "MKSI",
+      "pattern": "double_bottom",
+      "score": 67.91,
+      "state": "candidate"
+    },
+    {
+      "ticker": "ORCL",
       "pattern": "high_tight_pullback",
-      "score": 68.43,
+      "score": 67.68,
       "state": "candidate"
     },
     {
       "ticker": "LRCX",
       "pattern": "double_bottom",
-      "score": 68.21,
+      "score": 66.21,
+      "state": "candidate"
+    },
+    {
+      "ticker": "PANW",
+      "pattern": "high_tight_pullback",
+      "score": 64.81,
       "state": "candidate"
     }
   ]
