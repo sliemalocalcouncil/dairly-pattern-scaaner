@@ -1,0 +1,80 @@
+{
+  "run_id": "20260603T182545Z-9d37a5",
+  "asof": "2026-06-03T18:25:45.698919+00:00",
+  "n_signals": 287,
+  "n_alerts_eligible": 0,
+  "by_pattern": {
+    "bull_flag": 59,
+    "double_bottom": 98,
+    "vcp": 39,
+    "cup_with_handle": 14,
+    "ascending_triangle": 31,
+    "breakout_retest_hold": 22,
+    "high_tight_pullback": 12,
+    "base_on_base": 4,
+    "inverse_head_shoulders": 8
+  },
+  "by_state": {
+    "forming": 102,
+    "candidate": 14,
+    "setup": 42,
+    "absent": 85,
+    "extended": 13,
+    "breakout_confirmed": 3,
+    "breakout_failed": 6,
+    "invalidated": 22
+  },
+  "counters": {
+    "detector_hits": {
+      "bull_flag": 59,
+      "double_bottom": 97,
+      "vcp": 39,
+      "cup_with_handle": 14,
+      "ascending_triangle": 31,
+      "breakout_retest_hold": 17,
+      "high_tight_pullback": 12,
+      "base_on_base": 4,
+      "inverse_head_shoulders": 8
+    },
+    "active_monitor_events": 6,
+    "alerts_by_type": {
+      "failed": 1,
+      "invalidated": 1
+    },
+    "tickers_processed": 122,
+    "tickers_with_errors": 0
+  },
+  "errors": [],
+  "top_5": [
+    {
+      "ticker": "ATI",
+      "pattern": "breakout_retest_hold",
+      "score": 67.9,
+      "state": "setup"
+    },
+    {
+      "ticker": "IRDM",
+      "pattern": "double_bottom",
+      "score": 67.06,
+      "state": "candidate"
+    },
+    {
+      "ticker": "MKSI",
+      "pattern": "double_bottom",
+      "score": 65.57,
+      "state": "candidate"
+    },
+    {
+      "ticker": "AMD",
+      "pattern": "breakout_retest_hold",
+      "score": 65.55,
+      "state": "setup"
+    },
+    {
+      "ticker": "BELFB",
+      "pattern": "double_bottom",
+      "score": 65.52,
+      "state": "candidate"
+    }
+  ]
+}
