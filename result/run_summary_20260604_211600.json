@@ -1,0 +1,80 @@
+{
+  "run_id": "20260604T211600Z-d3b2cc",
+  "asof": "2026-06-04T21:16:00.604226+00:00",
+  "n_signals": 345,
+  "n_alerts_eligible": 1,
+  "by_pattern": {
+    "bull_flag": 87,
+    "double_bottom": 106,
+    "ascending_triangle": 38,
+    "breakout_retest_hold": 32,
+    "vcp": 48,
+    "cup_with_handle": 14,
+    "high_tight_pullback": 8,
+    "inverse_head_shoulders": 8,
+    "base_on_base": 3,
+    "tight_consolidation": 1
+  },
+  "by_state": {
+    "forming": 118,
+    "candidate": 36,
+    "absent": 127,
+    "setup": 37,
+    "breakout_confirmed": 7,
+    "extended": 8,
+    "invalidated": 12
+  },
+  "counters": {
+    "detector_hits": {
+      "bull_flag": 87,
+      "double_bottom": 106,
+      "ascending_triangle": 38,
+      "breakout_retest_hold": 31,
+      "vcp": 48,
+      "cup_with_handle": 14,
+      "high_tight_pullback": 8,
+      "inverse_head_shoulders": 8,
+      "base_on_base": 3,
+      "tight_consolidation": 1
+    },
+    "active_monitor_events": 1,
+    "alerts_by_type": {
+      "setup": 1
+    },
+    "tickers_processed": 122,
+    "tickers_with_errors": 0
+  },
+  "errors": [],
+  "top_5": [
+    {
+      "ticker": "CDNS",
+      "pattern": "breakout_retest_hold",
+      "score": 72.31,
+      "state": "setup"
+    },
+    {
+      "ticker": "PL",
+      "pattern": "double_bottom",
+      "score": 68.26,
+      "state": "candidate"
+    },
+    {
+      "ticker": "WULF",
+      "pattern": "double_bottom",
+      "score": 68.05,
+      "state": "candidate"
+    },
+    {
+      "ticker": "VICR",
+      "pattern": "double_bottom",
+      "score": 67.99,
+      "state": "candidate"
+    },
+    {
+      "ticker": "MKSI",
+      "pattern": "double_bottom",
+      "score": 67.19,
+      "state": "candidate"
+    }
+  ]
+}
