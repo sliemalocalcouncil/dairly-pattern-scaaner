@@ -1,0 +1,82 @@
+{
+  "run_id": "20260605T190121Z-87335a",
+  "asof": "2026-06-05T19:01:21.759136+00:00",
+  "n_signals": 348,
+  "n_alerts_eligible": 0,
+  "by_pattern": {
+    "bull_flag": 96,
+    "double_bottom": 106,
+    "ascending_triangle": 43,
+    "vcp": 52,
+    "cup_with_handle": 15,
+    "breakout_retest_hold": 20,
+    "inverse_head_shoulders": 8,
+    "base_on_base": 3,
+    "high_tight_pullback": 4,
+    "tight_consolidation": 1
+  },
+  "by_state": {
+    "forming": 90,
+    "invalidated": 98,
+    "absent": 139,
+    "setup": 12,
+    "breakout_failed": 2,
+    "breakout_confirmed": 1,
+    "candidate": 4,
+    "extended": 2
+  },
+  "counters": {
+    "detector_hits": {
+      "bull_flag": 96,
+      "double_bottom": 106,
+      "ascending_triangle": 42,
+      "vcp": 52,
+      "cup_with_handle": 15,
+      "inverse_head_shoulders": 8,
+      "base_on_base": 3,
+      "high_tight_pullback": 4,
+      "breakout_retest_hold": 11,
+      "tight_consolidation": 1
+    },
+    "active_monitor_events": 10,
+    "alerts_by_type": {
+      "invalidated": 13,
+      "failed": 1
+    },
+    "tickers_processed": 122,
+    "tickers_with_errors": 0
+  },
+  "errors": [],
+  "top_5": [
+    {
+      "ticker": "KLAC",
+      "pattern": "breakout_retest_hold",
+      "score": 65.15,
+      "state": "candidate"
+    },
+    {
+      "ticker": "APP",
+      "pattern": "double_bottom",
+      "score": 63.11,
+      "state": "candidate"
+    },
+    {
+      "ticker": "AMAT",
+      "pattern": "breakout_retest_hold",
+      "score": 61.0,
+      "state": "candidate"
+    },
+    {
+      "ticker": "GE",
+      "pattern": "breakout_retest_hold",
+      "score": 60.52,
+      "state": "candidate"
+    },
+    {
+      "ticker": "KLAC",
+      "pattern": "double_bottom",
+      "score": 59.81,
+      "state": "forming"
+    }
+  ]
+}
