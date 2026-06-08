@@ -1,11 +1,11 @@
 {
-  "run_id": "20260608T194054Z-ac5b69",
-  "asof": "2026-06-08T19:40:54.686977+00:00",
-  "n_signals": 320,
+  "run_id": "20260608T215641Z-8c3730",
+  "asof": "2026-06-08T21:56:41.899477+00:00",
+  "n_signals": 322,
   "n_alerts_eligible": 0,
   "by_pattern": {
-    "bull_flag": 98,
-    "double_bottom": 93,
+    "bull_flag": 99,
+    "double_bottom": 94,
     "vcp": 51,
     "ascending_triangle": 31,
     "cup_with_handle": 17,
@@ -16,19 +16,18 @@
     "tight_consolidation": 1
   },
   "by_state": {
-    "forming": 95,
+    "forming": 90,
     "absent": 161,
     "invalidated": 15,
     "setup": 17,
-    "candidate": 21,
+    "candidate": 29,
     "extended": 8,
-    "retest_hold": 1,
-    "breakout_confirmed": 2
+    "breakout_failed": 2
   },
   "counters": {
     "detector_hits": {
-      "bull_flag": 98,
-      "double_bottom": 93,
+      "bull_flag": 99,
+      "double_bottom": 94,
       "vcp": 51,
       "ascending_triangle": 31,
       "cup_with_handle": 17,
@@ -39,18 +38,22 @@
       "tight_consolidation": 1
     },
     "active_monitor_events": 0,
-    "alerts_by_type": {
-      "invalidated": 2
-    },
+    "alerts_by_type": {},
     "tickers_processed": 122,
     "tickers_with_errors": 0
   },
   "errors": [],
   "top_5": [
     {
+      "ticker": "GLW",
+      "pattern": "double_bottom",
+      "score": 65.55,
+      "state": "candidate"
+    },
+    {
       "ticker": "APH",
       "pattern": "double_bottom",
-      "score": 65.8,
+      "score": 65.11,
       "state": "candidate"
     },
     {
@@ -62,19 +65,13 @@
     {
       "ticker": "ONTO",
       "pattern": "double_bottom",
-      "score": 64.36,
+      "score": 64.97,
       "state": "candidate"
     },
     {
       "ticker": "APP",
       "pattern": "double_bottom",
-      "score": 64.11,
-      "state": "candidate"
-    },
-    {
-      "ticker": "GLW",
-      "pattern": "double_bottom",
-      "score": 63.8,
+      "score": 64.29,
       "state": "candidate"
     }
   ]
