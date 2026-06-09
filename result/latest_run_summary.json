@@ -1,43 +1,44 @@
 {
-  "run_id": "20260609T163431Z-3d1559",
-  "asof": "2026-06-09T16:34:31.925438+00:00",
-  "n_signals": 297,
-  "n_alerts_eligible": 0,
+  "run_id": "20260609T192244Z-f93a62",
+  "asof": "2026-06-09T19:22:44.575783+00:00",
+  "n_signals": 303,
+  "n_alerts_eligible": 1,
   "by_pattern": {
-    "bull_flag": 82,
-    "double_bottom": 94,
-    "vcp": 56,
-    "ascending_triangle": 32,
+    "bull_flag": 95,
+    "double_bottom": 95,
+    "vcp": 51,
+    "ascending_triangle": 25,
     "cup_with_handle": 13,
-    "breakout_retest_hold": 8,
     "inverse_head_shoulders": 5,
     "base_on_base": 6,
+    "breakout_retest_hold": 12,
     "tight_consolidation": 1
   },
   "by_state": {
-    "absent": 133,
-    "invalidated": 82,
-    "forming": 51,
-    "setup": 21,
-    "candidate": 7,
-    "breakout_confirmed": 2,
-    "extended": 1
+    "absent": 144,
+    "invalidated": 41,
+    "forming": 72,
+    "setup": 32,
+    "extended": 2,
+    "candidate": 8,
+    "breakout_confirmed": 4
   },
   "counters": {
     "detector_hits": {
-      "bull_flag": 82,
-      "double_bottom": 94,
-      "vcp": 56,
-      "ascending_triangle": 32,
+      "bull_flag": 95,
+      "double_bottom": 95,
+      "vcp": 51,
+      "ascending_triangle": 25,
       "cup_with_handle": 13,
-      "breakout_retest_hold": 6,
       "inverse_head_shoulders": 5,
       "base_on_base": 6,
+      "breakout_retest_hold": 12,
       "tight_consolidation": 1
     },
-    "active_monitor_events": 2,
+    "active_monitor_events": 0,
     "alerts_by_type": {
-      "invalidated": 5
+      "invalidated": 2,
+      "setup": 1
     },
     "tickers_processed": 122,
     "tickers_with_errors": 0
@@ -45,34 +46,34 @@
   "errors": [],
   "top_5": [
     {
-      "ticker": "APH",
-      "pattern": "double_bottom",
-      "score": 65.73,
-      "state": "candidate"
-    },
-    {
-      "ticker": "COHU",
-      "pattern": "double_bottom",
-      "score": 62.46,
-      "state": "candidate"
-    },
-    {
-      "ticker": "WULF",
-      "pattern": "double_bottom",
-      "score": 62.35,
-      "state": "candidate"
-    },
-    {
-      "ticker": "GE",
+      "ticker": "SIRI",
       "pattern": "breakout_retest_hold",
-      "score": 62.31,
+      "score": 74.28,
       "state": "setup"
     },
     {
-      "ticker": "KLAC",
+      "ticker": "APH",
       "pattern": "double_bottom",
-      "score": 62.01,
+      "score": 65.66,
+      "state": "setup"
+    },
+    {
+      "ticker": "CRS",
+      "pattern": "breakout_retest_hold",
+      "score": 64.56,
+      "state": "breakout_confirmed"
+    },
+    {
+      "ticker": "TSM",
+      "pattern": "double_bottom",
+      "score": 64.37,
       "state": "candidate"
+    },
+    {
+      "ticker": "FTNT",
+      "pattern": "breakout_retest_hold",
+      "score": 64.22,
+      "state": "setup"
     }
   ]
 }
