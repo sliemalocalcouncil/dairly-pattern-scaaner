@@ -1,0 +1,80 @@
+{
+  "run_id": "20260609T212038Z-4391dd",
+  "asof": "2026-06-09T21:20:38.129904+00:00",
+  "n_signals": 295,
+  "n_alerts_eligible": 1,
+  "by_pattern": {
+    "bull_flag": 92,
+    "double_bottom": 93,
+    "vcp": 51,
+    "ascending_triangle": 25,
+    "cup_with_handle": 13,
+    "inverse_head_shoulders": 5,
+    "base_on_base": 6,
+    "breakout_retest_hold": 9,
+    "tight_consolidation": 1
+  },
+  "by_state": {
+    "absent": 143,
+    "forming": 68,
+    "invalidated": 38,
+    "candidate": 14,
+    "setup": 22,
+    "breakout_confirmed": 7,
+    "extended": 2,
+    "retest_hold": 1
+  },
+  "counters": {
+    "detector_hits": {
+      "bull_flag": 92,
+      "double_bottom": 93,
+      "vcp": 51,
+      "ascending_triangle": 25,
+      "cup_with_handle": 13,
+      "inverse_head_shoulders": 5,
+      "base_on_base": 6,
+      "breakout_retest_hold": 9,
+      "tight_consolidation": 1
+    },
+    "active_monitor_events": 0,
+    "alerts_by_type": {
+      "invalidated": 1,
+      "breakout": 1
+    },
+    "tickers_processed": 122,
+    "tickers_with_errors": 0
+  },
+  "errors": [],
+  "top_5": [
+    {
+      "ticker": "SIRI",
+      "pattern": "breakout_retest_hold",
+      "score": 71.35,
+      "state": "breakout_confirmed"
+    },
+    {
+      "ticker": "APH",
+      "pattern": "double_bottom",
+      "score": 67.93,
+      "state": "setup"
+    },
+    {
+      "ticker": "TSM",
+      "pattern": "double_bottom",
+      "score": 66.26,
+      "state": "candidate"
+    },
+    {
+      "ticker": "MKSI",
+      "pattern": "double_bottom",
+      "score": 65.2,
+      "state": "candidate"
+    },
+    {
+      "ticker": "KLAC",
+      "pattern": "double_bottom",
+      "score": 63.83,
+      "state": "candidate"
+    }
+  ]
+}
