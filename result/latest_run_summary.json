@@ -1,48 +1,46 @@
 {
-  "run_id": "20260610T195515Z-1908e5",
-  "asof": "2026-06-10T19:55:15.187023+00:00",
-  "n_signals": 269,
+  "run_id": "20260610T221103Z-547eba",
+  "asof": "2026-06-10T22:11:03.037448+00:00",
+  "n_signals": 272,
   "n_alerts_eligible": 1,
   "by_pattern": {
-    "bull_flag": 78,
-    "double_bottom": 82,
-    "vcp": 53,
+    "bull_flag": 79,
+    "double_bottom": 83,
+    "vcp": 54,
     "cup_with_handle": 12,
     "inverse_head_shoulders": 8,
     "ascending_triangle": 17,
     "base_on_base": 6,
-    "breakout_retest_hold": 9,
     "high_tight_pullback": 3,
+    "breakout_retest_hold": 9,
     "tight_consolidation": 1
   },
   "by_state": {
-    "absent": 129,
+    "absent": 130,
     "invalidated": 34,
-    "forming": 77,
-    "candidate": 10,
-    "setup": 13,
+    "forming": 79,
+    "candidate": 12,
+    "setup": 12,
     "extended": 1,
-    "breakout_confirmed": 3,
-    "breakout_failed": 1,
-    "retest_hold": 1
+    "breakout_confirmed": 1,
+    "retest_hold": 3
   },
   "counters": {
     "detector_hits": {
-      "bull_flag": 78,
-      "double_bottom": 82,
-      "vcp": 53,
+      "bull_flag": 79,
+      "double_bottom": 83,
+      "vcp": 54,
       "cup_with_handle": 12,
       "inverse_head_shoulders": 8,
       "ascending_triangle": 17,
       "base_on_base": 6,
       "high_tight_pullback": 3,
-      "breakout_retest_hold": 8,
+      "breakout_retest_hold": 9,
       "tight_consolidation": 1
     },
-    "active_monitor_events": 1,
+    "active_monitor_events": 0,
     "alerts_by_type": {
-      "invalidated": 2,
-      "breakout": 1
+      "retest": 1
     },
     "tickers_processed": 122,
     "tickers_with_errors": 0
@@ -52,32 +50,32 @@
     {
       "ticker": "ATI",
       "pattern": "breakout_retest_hold",
-      "score": 72.7,
-      "state": "breakout_confirmed"
+      "score": 73.45,
+      "state": "retest_hold"
     },
     {
       "ticker": "CRS",
       "pattern": "breakout_retest_hold",
-      "score": 69.15,
+      "score": 69.99,
       "state": "retest_hold"
     },
     {
       "ticker": "LRCX",
       "pattern": "double_bottom",
-      "score": 66.36,
-      "state": "candidate"
-    },
-    {
-      "ticker": "APH",
-      "pattern": "double_bottom",
-      "score": 64.21,
+      "score": 66.72,
       "state": "candidate"
     },
     {
       "ticker": "KLAC",
       "pattern": "breakout_retest_hold",
-      "score": 63.6,
+      "score": 64.92,
       "state": "setup"
+    },
+    {
+      "ticker": "APH",
+      "pattern": "double_bottom",
+      "score": 64.35,
+      "state": "candidate"
     }
   ]
 }
