@@ -1,46 +1,46 @@
 {
-  "run_id": "20260610T221103Z-547eba",
-  "asof": "2026-06-10T22:11:03.037448+00:00",
-  "n_signals": 272,
-  "n_alerts_eligible": 1,
+  "run_id": "20260611T173940Z-0b1401",
+  "asof": "2026-06-11T17:39:40.017429+00:00",
+  "n_signals": 261,
+  "n_alerts_eligible": 0,
   "by_pattern": {
-    "bull_flag": 79,
-    "double_bottom": 83,
-    "vcp": 54,
-    "cup_with_handle": 12,
-    "inverse_head_shoulders": 8,
-    "ascending_triangle": 17,
+    "double_bottom": 97,
+    "bull_flag": 61,
+    "breakout_retest_hold": 10,
+    "vcp": 50,
+    "cup_with_handle": 10,
+    "inverse_head_shoulders": 10,
+    "ascending_triangle": 15,
     "base_on_base": 6,
-    "high_tight_pullback": 3,
-    "breakout_retest_hold": 9,
+    "high_tight_pullback": 1,
     "tight_consolidation": 1
   },
   "by_state": {
-    "absent": 130,
-    "invalidated": 34,
-    "forming": 79,
-    "candidate": 12,
-    "setup": 12,
-    "extended": 1,
-    "breakout_confirmed": 1,
-    "retest_hold": 3
+    "forming": 83,
+    "absent": 107,
+    "candidate": 16,
+    "invalidated": 26,
+    "setup": 22,
+    "breakout_confirmed": 6,
+    "breakout_failed": 1
   },
   "counters": {
     "detector_hits": {
-      "bull_flag": 79,
-      "double_bottom": 83,
-      "vcp": 54,
-      "cup_with_handle": 12,
-      "inverse_head_shoulders": 8,
-      "ascending_triangle": 17,
+      "double_bottom": 97,
+      "bull_flag": 61,
+      "breakout_retest_hold": 8,
+      "vcp": 50,
+      "cup_with_handle": 10,
+      "inverse_head_shoulders": 10,
+      "ascending_triangle": 15,
       "base_on_base": 6,
-      "high_tight_pullback": 3,
-      "breakout_retest_hold": 9,
+      "high_tight_pullback": 1,
       "tight_consolidation": 1
     },
-    "active_monitor_events": 0,
+    "active_monitor_events": 2,
     "alerts_by_type": {
-      "retest": 1
+      "invalidated": 2,
+      "failed": 1
     },
     "tickers_processed": 122,
     "tickers_with_errors": 0
@@ -48,33 +48,33 @@
   "errors": [],
   "top_5": [
     {
-      "ticker": "ATI",
+      "ticker": "KLAC",
       "pattern": "breakout_retest_hold",
-      "score": 73.45,
-      "state": "retest_hold"
-    },
-    {
-      "ticker": "CRS",
-      "pattern": "breakout_retest_hold",
-      "score": 69.99,
-      "state": "retest_hold"
-    },
-    {
-      "ticker": "LRCX",
-      "pattern": "double_bottom",
-      "score": 66.72,
+      "score": 67.06,
       "state": "candidate"
     },
     {
-      "ticker": "KLAC",
+      "ticker": "AMAT",
       "pattern": "breakout_retest_hold",
-      "score": 64.92,
+      "score": 66.96,
       "state": "setup"
     },
     {
-      "ticker": "APH",
+      "ticker": "STM",
+      "pattern": "breakout_retest_hold",
+      "score": 66.57,
+      "state": "setup"
+    },
+    {
+      "ticker": "MKSI",
       "pattern": "double_bottom",
-      "score": 64.35,
+      "score": 66.45,
+      "state": "candidate"
+    },
+    {
+      "ticker": "GFS",
+      "pattern": "breakout_retest_hold",
+      "score": 66.33,
       "state": "candidate"
     }
   ]
