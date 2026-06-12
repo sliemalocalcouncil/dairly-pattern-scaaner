@@ -1,43 +1,48 @@
 {
-  "run_id": "20260611T203056Z-3f77af",
-  "asof": "2026-06-11T20:30:56.575098+00:00",
-  "n_signals": 235,
-  "n_alerts_eligible": 0,
+  "run_id": "20260612T165010Z-29ec7c",
+  "asof": "2026-06-12T16:50:10.253012+00:00",
+  "n_signals": 229,
+  "n_alerts_eligible": 1,
   "by_pattern": {
-    "double_bottom": 97,
-    "bull_flag": 44,
-    "breakout_retest_hold": 4,
-    "vcp": 49,
+    "double_bottom": 101,
+    "vcp": 40,
     "cup_with_handle": 9,
-    "inverse_head_shoulders": 11,
-    "ascending_triangle": 13,
+    "inverse_head_shoulders": 13,
+    "ascending_triangle": 14,
+    "bull_flag": 36,
+    "breakout_retest_hold": 8,
     "base_on_base": 6,
-    "high_tight_pullback": 2
+    "high_tight_pullback": 1,
+    "tight_consolidation": 1
   },
   "by_state": {
-    "forming": 60,
-    "absent": 76,
-    "setup": 54,
-    "invalidated": 15,
+    "forming": 62,
+    "absent": 64,
+    "setup": 50,
+    "invalidated": 17,
     "candidate": 16,
-    "breakout_confirmed": 12,
-    "extended": 2
+    "extended": 11,
+    "breakout_confirmed": 7,
+    "breakout_failed": 2
   },
   "counters": {
     "detector_hits": {
-      "double_bottom": 97,
-      "bull_flag": 44,
-      "breakout_retest_hold": 4,
-      "vcp": 49,
+      "double_bottom": 101,
+      "vcp": 39,
       "cup_with_handle": 9,
-      "inverse_head_shoulders": 11,
-      "ascending_triangle": 13,
+      "inverse_head_shoulders": 13,
+      "ascending_triangle": 14,
+      "bull_flag": 36,
+      "breakout_retest_hold": 6,
       "base_on_base": 6,
-      "high_tight_pullback": 2
+      "high_tight_pullback": 1,
+      "tight_consolidation": 1
     },
-    "active_monitor_events": 0,
+    "active_monitor_events": 3,
     "alerts_by_type": {
-      "invalidated": 1
+      "invalidated": 2,
+      "setup": 1,
+      "failed": 1
     },
     "tickers_processed": 122,
     "tickers_with_errors": 0
@@ -45,34 +50,34 @@
   "errors": [],
   "top_5": [
     {
-      "ticker": "ATI",
-      "pattern": "double_bottom",
-      "score": 67.22,
-      "state": "breakout_confirmed"
+      "ticker": "FTNT",
+      "pattern": "breakout_retest_hold",
+      "score": 72.19,
+      "state": "setup"
     },
     {
-      "ticker": "APH",
+      "ticker": "LSCC",
       "pattern": "double_bottom",
-      "score": 65.82,
+      "score": 67.48,
       "state": "candidate"
     },
     {
-      "ticker": "ONTO",
+      "ticker": "FLEX",
+      "pattern": "double_bottom",
+      "score": 65.51,
+      "state": "setup"
+    },
+    {
+      "ticker": "AMD",
+      "pattern": "double_bottom",
+      "score": 64.5,
+      "state": "setup"
+    },
+    {
+      "ticker": "WULF",
       "pattern": "inverse_head_shoulders",
-      "score": 65.32,
-      "state": "setup"
-    },
-    {
-      "ticker": "SATS",
-      "pattern": "double_bottom",
-      "score": 65.31,
-      "state": "breakout_confirmed"
-    },
-    {
-      "ticker": "ONTO",
-      "pattern": "double_bottom",
-      "score": 65.08,
-      "state": "setup"
+      "score": 63.92,
+      "state": "candidate"
     }
   ]
 }
