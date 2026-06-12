@@ -1,0 +1,79 @@
+{
+  "run_id": "20260612T191247Z-bb7886",
+  "asof": "2026-06-12T19:12:47.387532+00:00",
+  "n_signals": 252,
+  "n_alerts_eligible": 1,
+  "by_pattern": {
+    "double_bottom": 100,
+    "vcp": 39,
+    "cup_with_handle": 9,
+    "breakout_retest_hold": 23,
+    "inverse_head_shoulders": 14,
+    "bull_flag": 45,
+    "base_on_base": 6,
+    "high_tight_pullback": 5,
+    "ascending_triangle": 10,
+    "tight_consolidation": 1
+  },
+  "by_state": {
+    "forming": 75,
+    "absent": 71,
+    "setup": 60,
+    "invalidated": 12,
+    "candidate": 16,
+    "extended": 12,
+    "breakout_confirmed": 5,
+    "breakout_failed": 1
+  },
+  "counters": {
+    "detector_hits": {
+      "double_bottom": 100,
+      "vcp": 39,
+      "cup_with_handle": 9,
+      "breakout_retest_hold": 23,
+      "inverse_head_shoulders": 14,
+      "bull_flag": 45,
+      "base_on_base": 6,
+      "high_tight_pullback": 5,
+      "ascending_triangle": 10,
+      "tight_consolidation": 1
+    },
+    "active_monitor_events": 0,
+    "alerts_by_type": {},
+    "tickers_processed": 122,
+    "tickers_with_errors": 0
+  },
+  "errors": [],
+  "top_5": [
+    {
+      "ticker": "FTNT",
+      "pattern": "breakout_retest_hold",
+      "score": 70.77,
+      "state": "setup"
+    },
+    {
+      "ticker": "TSM",
+      "pattern": "breakout_retest_hold",
+      "score": 68.24,
+      "state": "setup"
+    },
+    {
+      "ticker": "NET",
+      "pattern": "breakout_retest_hold",
+      "score": 67.29,
+      "state": "candidate"
+    },
+    {
+      "ticker": "CW",
+      "pattern": "breakout_retest_hold",
+      "score": 67.11,
+      "state": "setup"
+    },
+    {
+      "ticker": "GE",
+      "pattern": "breakout_retest_hold",
+      "score": 67.01,
+      "state": "setup"
+    }
+  ]
+}
