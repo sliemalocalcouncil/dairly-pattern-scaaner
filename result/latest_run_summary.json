@@ -1,76 +1,88 @@
 {
-  "run_id": "20260612T211537Z-22e303",
-  "asof": "2026-06-12T21:15:37.024110+00:00",
-  "n_signals": 262,
-  "n_alerts_eligible": 1,
+  "run_id": "20260615T184349Z-df16ba",
+  "asof": "2026-06-15T18:43:49.376229+00:00",
+  "n_signals": 273,
+  "n_alerts_eligible": 5,
   "by_pattern": {
-    "double_bottom": 100,
-    "high_tight_pullback": 11,
-    "vcp": 39,
+    "double_bottom": 98,
+    "high_tight_pullback": 39,
     "cup_with_handle": 9,
-    "breakout_retest_hold": 26,
-    "inverse_head_shoulders": 14,
-    "bull_flag": 47,
+    "breakout_retest_hold": 25,
+    "inverse_head_shoulders": 15,
+    "bull_flag": 32,
+    "ascending_triangle": 16,
+    "vcp": 32,
     "base_on_base": 6,
-    "ascending_triangle": 10
+    "tight_consolidation": 1
   },
   "by_state": {
-    "candidate": 24,
-    "forming": 82,
-    "absent": 69,
-    "setup": 62,
-    "extended": 11,
-    "retest_hold": 1,
-    "invalidated": 9,
-    "breakout_confirmed": 4
+    "candidate": 41,
+    "absent": 54,
+    "forming": 64,
+    "setup": 66,
+    "extended": 32,
+    "invalidated": 11,
+    "breakout_confirmed": 3,
+    "breakout_failed": 2
   },
   "counters": {
     "detector_hits": {
-      "double_bottom": 100,
-      "high_tight_pullback": 11,
-      "vcp": 39,
+      "double_bottom": 98,
+      "high_tight_pullback": 39,
       "cup_with_handle": 9,
-      "breakout_retest_hold": 26,
-      "inverse_head_shoulders": 14,
-      "bull_flag": 47,
+      "breakout_retest_hold": 23,
+      "inverse_head_shoulders": 15,
+      "bull_flag": 32,
+      "ascending_triangle": 16,
+      "vcp": 32,
       "base_on_base": 6,
-      "ascending_triangle": 10
+      "tight_consolidation": 1
     },
-    "active_monitor_events": 0,
-    "alerts_by_type": {},
-    "tickers_processed": 122,
-    "tickers_with_errors": 0
+    "active_monitor_events": 2,
+    "alerts_by_type": {
+      "setup": 2,
+      "watch": 2,
+      "failed": 1
+    },
+    "tickers_processed": 121,
+    "tickers_with_errors": 1
   },
-  "errors": [],
+  "errors": [
+    {
+      "ticker": "AMPX",
+      "phase": "scan",
+      "error": "invalid json from polygon: Expecting ',' delimiter: line 1 column 27647 (char 27646)"
+    }
+  ],
   "top_5": [
     {
-      "ticker": "FTNT",
+      "ticker": "TSEM",
+      "pattern": "high_tight_pullback",
+      "score": 71.99,
+      "state": "candidate"
+    },
+    {
+      "ticker": "MKSI",
+      "pattern": "high_tight_pullback",
+      "score": 71.96,
+      "state": "candidate"
+    },
+    {
+      "ticker": "NVT",
       "pattern": "breakout_retest_hold",
-      "score": 72.49,
+      "score": 71.55,
       "state": "setup"
     },
     {
-      "ticker": "TSM",
+      "ticker": "LSCC",
       "pattern": "breakout_retest_hold",
-      "score": 69.86,
+      "score": 71.01,
       "state": "setup"
     },
     {
-      "ticker": "GE",
-      "pattern": "breakout_retest_hold",
-      "score": 69.13,
-      "state": "setup"
-    },
-    {
-      "ticker": "MPWR",
-      "pattern": "breakout_retest_hold",
-      "score": 68.86,
-      "state": "setup"
-    },
-    {
-      "ticker": "MCHP",
-      "pattern": "breakout_retest_hold",
-      "score": 68.73,
+      "ticker": "LSCC",
+      "pattern": "double_bottom",
+      "score": 70.11,
       "state": "setup"
     }
   ]
