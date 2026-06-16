@@ -1,0 +1,83 @@
+{
+  "run_id": "20260616T183719Z-057585",
+  "asof": "2026-06-16T18:37:19.510707+00:00",
+  "n_signals": 320,
+  "n_alerts_eligible": 0,
+  "by_pattern": {
+    "double_bottom": 101,
+    "bull_flag": 53,
+    "high_tight_pullback": 41,
+    "cup_with_handle": 9,
+    "breakout_retest_hold": 40,
+    "inverse_head_shoulders": 14,
+    "vcp": 28,
+    "ascending_triangle": 27,
+    "base_on_base": 6,
+    "tight_consolidation": 1
+  },
+  "by_state": {
+    "candidate": 20,
+    "absent": 93,
+    "forming": 117,
+    "setup": 58,
+    "extended": 15,
+    "breakout_confirmed": 7,
+    "invalidated": 7,
+    "retest_hold": 1,
+    "breakout_failed": 2
+  },
+  "counters": {
+    "detector_hits": {
+      "double_bottom": 101,
+      "bull_flag": 53,
+      "high_tight_pullback": 41,
+      "cup_with_handle": 9,
+      "breakout_retest_hold": 37,
+      "inverse_head_shoulders": 14,
+      "vcp": 28,
+      "ascending_triangle": 27,
+      "base_on_base": 6,
+      "tight_consolidation": 1
+    },
+    "active_monitor_events": 3,
+    "alerts_by_type": {
+      "invalidated": 1,
+      "failed": 1
+    },
+    "tickers_processed": 122,
+    "tickers_with_errors": 0
+  },
+  "errors": [],
+  "top_5": [
+    {
+      "ticker": "NXPI",
+      "pattern": "breakout_retest_hold",
+      "score": 69.46,
+      "state": "breakout_confirmed"
+    },
+    {
+      "ticker": "NVT",
+      "pattern": "breakout_retest_hold",
+      "score": 69.17,
+      "state": "setup"
+    },
+    {
+      "ticker": "JCI",
+      "pattern": "breakout_retest_hold",
+      "score": 68.56,
+      "state": "setup"
+    },
+    {
+      "ticker": "NBIS",
+      "pattern": "breakout_retest_hold",
+      "score": 68.25,
+      "state": "setup"
+    },
+    {
+      "ticker": "CW",
+      "pattern": "breakout_retest_hold",
+      "score": 67.78,
+      "state": "setup"
+    }
+  ]
+}
