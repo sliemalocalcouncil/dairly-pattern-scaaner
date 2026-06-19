@@ -2638,13 +2638,13 @@
     "trigger": 432.7
   },
   "MSFT::double_bottom": {
-    "invalid_below": 385.06605,
+    "invalid_below": 367.6808,
     "last_alert_at": "2026-06-03T18:27:23.329363+00:00",
     "last_alert_score": 0.0,
     "last_alert_type": "failed",
     "monitored_until": null,
-    "state": "invalidated",
-    "trigger": 405.04
+    "state": "forming",
+    "trigger": 401.75
   },
   "MSFT::inverse_head_shoulders": {
     "invalid_below": 392.03985,
@@ -2921,19 +2921,19 @@
     "trigger": 95.62
   },
   "NVDA::ascending_triangle": {
-    "invalid_below": 195.71949999999998,
+    "invalid_below": 196.5469,
     "monitored_until": null,
     "state": "absent",
-    "trigger": 216.38
+    "trigger": 212.7107
   },
   "NVDA::breakout_retest_hold": {
-    "invalid_below": 212.4342,
+    "invalid_below": 202.3956,
     "last_alert_at": "2026-05-18T16:51:45.462793+00:00",
     "last_alert_score": 0.0,
     "last_alert_type": "invalidated",
-    "monitored_until": null,
-    "state": "invalidated",
-    "trigger": 214.29
+    "monitored_until": "2026-06-29T20:00:00+00:00",
+    "state": "setup",
+    "trigger": 207.07
   },
   "NVDA::bull_flag": {
     "invalid_below": 201.3734,
@@ -2947,10 +2947,10 @@
     "trigger": 216.825
   },
   "NVDA::double_bottom": {
-    "invalid_below": 196.5469,
+    "invalid_below": 201.26505,
     "monitored_until": null,
     "state": "forming",
-    "trigger": 211.4
+    "trigger": 212.7107
   },
   "NVDA::high_tight_pullback": {
     "invalid_below": 211.69619999999998,
@@ -4281,6 +4281,12 @@
     "state": "absent",
     "trigger": 231.02
   },
+  "TXN::ascending_triangle": {
+    "invalid_below": 269.7718,
+    "monitored_until": "2026-06-29T20:00:00+00:00",
+    "state": "breakout_confirmed",
+    "trigger": 319.215
+  },
   "TXN::breakout_retest_hold": {
     "invalid_below": 295.0695,
     "last_alert_at": "2026-05-11T21:04:42.507906+00:00",
@@ -4297,10 +4303,10 @@
     "trigger": 319.215
   },
   "TXN::double_bottom": {
-    "invalid_below": 277.6124,
-    "monitored_until": null,
-    "state": "forming",
-    "trigger": 312.76
+    "invalid_below": 280.69545000000005,
+    "monitored_until": "2026-06-29T20:00:00+00:00",
+    "state": "breakout_confirmed",
+    "trigger": 319.215
   },
   "TXN::high_tight_pullback": {
     "invalid_below": 305.19239999999996,
