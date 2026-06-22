@@ -4263,7 +4263,8 @@
   },
   "TTWO::cup_with_handle": {
     "invalid_below": 202.91,
-    "state": "forming",
+    "monitored_until": "2026-06-29T20:00:00+00:00",
+    "state": "breakout_confirmed",
     "trigger": 231.02
   },
   "TTWO::double_bottom": {
@@ -4277,8 +4278,8 @@
     "last_alert_at": "2026-06-02T18:10:23.398605+00:00",
     "last_alert_score": 0.0,
     "last_alert_type": "failed",
-    "monitored_until": null,
-    "state": "absent",
+    "monitored_until": "2026-06-29T20:00:00+00:00",
+    "state": "breakout_confirmed",
     "trigger": 231.02
   },
   "TXN::ascending_triangle": {
