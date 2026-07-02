@@ -3739,14 +3739,14 @@
     "trigger": 67.16
   },
   "SBGSY::cup_with_handle": {
-    "invalid_below": 61.370425,
+    "invalid_below": 61.148799999999994,
     "state": "forming",
     "trigger": 67.16
   },
   "SBGSY::double_bottom": {
-    "invalid_below": 61.51325,
+    "invalid_below": 61.148799999999994,
     "monitored_until": null,
-    "state": "forming",
+    "state": "absent",
     "trigger": 67.16
   },
   "SBGSY::vcp": {
@@ -4023,9 +4023,9 @@
     "trigger": 52.0485
   },
   "TER::ascending_triangle": {
-    "invalid_below": 340.420925,
+    "invalid_below": 408.70605,
     "state": "forming",
-    "trigger": 440.7499
+    "trigger": 485.3
   },
   "TER::breakout_retest_hold": {
     "invalid_below": 384.2091,
@@ -4037,17 +4037,17 @@
     "trigger": 391.88
   },
   "TER::bull_flag": {
-    "invalid_below": 402.63845,
+    "invalid_below": 419.24555,
     "state": "absent",
-    "trigger": 459.187
+    "trigger": 485.3
   },
   "TER::double_bottom": {
     "invalid_below": 408.04609999999997,
-    "last_alert_at": "2026-05-18T16:50:51.876746+00:00",
-    "last_alert_score": 40.0,
-    "last_alert_type": "invalidated",
-    "monitored_until": "2026-07-06T20:00:00+00:00",
-    "state": "breakout_confirmed",
+    "last_alert_at": "2026-07-02T18:31:01.299688+00:00",
+    "last_alert_score": 0.0,
+    "last_alert_type": "failed",
+    "monitored_until": null,
+    "state": "breakout_failed",
     "trigger": 459.187
   },
   "TER::high_tight_pullback": {
@@ -4795,14 +4795,14 @@
     "last_alert_at": "2026-05-12T16:27:00.691155+00:00",
     "last_alert_score": 40.0,
     "last_alert_type": "invalidated",
-    "monitored_until": null,
-    "state": "forming",
+    "monitored_until": "2026-07-10T20:00:00+00:00",
+    "state": "setup",
     "trigger": 20.5
   },
   "ZETA::high_tight_pullback": {
-    "invalid_below": 18.8332,
-    "state": "absent",
-    "trigger": 20.5
+    "invalid_below": 20.5077,
+    "state": "candidate",
+    "trigger": 21.365
   },
   "ZETA::inverse_head_shoulders": {
     "invalid_below": 16.3843915,
