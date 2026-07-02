@@ -62,7 +62,7 @@
     "trigger": 431.87
   },
   "ADI::double_bottom": {
-    "invalid_below": 385.90329999999994,
+    "invalid_below": 382.93845,
     "last_alert_at": "2026-06-05T21:11:43.279210+00:00",
     "last_alert_score": 54.52,
     "last_alert_type": "invalidated",
@@ -2947,13 +2947,13 @@
     "trigger": 97.5
   },
   "NOW::double_bottom": {
-    "invalid_below": 88.04915,
+    "invalid_below": 95.49575,
     "last_alert_at": "2026-05-13T16:27:52.775849+00:00",
     "last_alert_score": 40.0,
     "last_alert_type": "invalidated",
-    "monitored_until": null,
-    "state": "forming",
-    "trigger": 97.5
+    "monitored_until": "2026-07-10T20:00:00+00:00",
+    "state": "setup",
+    "trigger": 103.21
   },
   "NOW::high_tight_pullback": {
     "invalid_below": 129.72449999999998,
@@ -2993,7 +2993,7 @@
     "trigger": 216.825
   },
   "NVDA::double_bottom": {
-    "invalid_below": 188.3517,
+    "invalid_below": 190.54825,
     "monitored_until": null,
     "state": "absent",
     "trigger": 203.77
@@ -3513,7 +3513,7 @@
   "POWI::inverse_head_shoulders": {
     "invalid_below": 74.3478,
     "monitored_until": null,
-    "state": "forming",
+    "state": "candidate",
     "trigger": 83.95
   },
   "POWI::vcp": {
