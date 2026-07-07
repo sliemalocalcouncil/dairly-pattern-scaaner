@@ -4016,7 +4016,7 @@
     "last_alert_score": 40.0,
     "last_alert_type": "invalidated",
     "monitored_until": null,
-    "state": "candidate",
+    "state": "forming",
     "trigger": 63.1096
   },
   "TEM::high_tight_pullback": {
@@ -4524,12 +4524,12 @@
     "trigger": 335.1099
   },
   "VRT::double_bottom": {
-    "invalid_below": 305.0151,
+    "invalid_below": 292.00325,
     "last_alert_at": "2026-07-03T21:17:03.980692+00:00",
     "last_alert_score": 40.0,
     "last_alert_type": "invalidated",
     "monitored_until": null,
-    "state": "invalidated",
+    "state": "forming",
     "trigger": 340.0
   },
   "VRT::high_tight_pullback": {
