@@ -414,10 +414,10 @@
     "trigger": 484.49
   },
   "ASML::ascending_triangle": {
-    "invalid_below": 1787.3908499999998,
+    "invalid_below": 1721.7997,
     "monitored_until": null,
-    "state": "forming",
-    "trigger": 1941.52
+    "state": "absent",
+    "trigger": 1990.0
   },
   "ASML::breakout_retest_hold": {
     "invalid_below": 1937.4399,
@@ -440,10 +440,10 @@
     "trigger": 1603.49
   },
   "ASML::double_bottom": {
-    "invalid_below": 1745.9322,
+    "invalid_below": 1704.33565,
     "monitored_until": null,
     "state": "forming",
-    "trigger": 1959.04
+    "trigger": 1990.0
   },
   "ASML::high_tight_pullback": {
     "invalid_below": 1927.65485,
@@ -708,7 +708,7 @@
   "AXTI::inverse_head_shoulders": {
     "invalid_below": 63.404450000000004,
     "monitored_until": null,
-    "state": "invalidated",
+    "state": "absent",
     "trigger": 73.16
   },
   "BA::ascending_triangle": {
@@ -1944,8 +1944,8 @@
     "trigger": 141.45
   },
   "INTU::ascending_triangle": {
-    "invalid_below": 250.23925,
-    "state": "absent",
+    "invalid_below": 255.22335,
+    "state": "forming",
     "trigger": 277.57
   },
   "INTU::breakout_retest_hold": {
@@ -2553,9 +2553,9 @@
     "trigger": 291.745
   },
   "MOD::bull_flag": {
-    "invalid_below": 240.34,
+    "invalid_below": 221.81215,
     "state": "absent",
-    "trigger": 292.8896
+    "trigger": 267.92
   },
   "MOD::double_bottom": {
     "invalid_below": 240.34,
@@ -3543,15 +3543,6 @@
     "state": "absent",
     "trigger": 233.444
   },
-  "QCOM::breakout_retest_hold": {
-    "invalid_below": 196.4556,
-    "last_alert_at": "2026-05-27T17:26:29.061129+00:00",
-    "last_alert_score": 0.0,
-    "last_alert_type": "invalidated",
-    "monitored_until": "2026-07-01T20:00:00+00:00",
-    "state": "setup",
-    "trigger": 199.48
-  },
   "QCOM::bull_flag": {
     "invalid_below": 188.15470000000002,
     "state": "absent",
@@ -4103,17 +4094,17 @@
   },
   "TMUS::double_bottom": {
     "invalid_below": 163.1751,
-    "monitored_until": "2026-07-13T20:00:00+00:00",
+    "monitored_until": "2026-07-14T20:00:00+00:00",
     "state": "setup",
     "trigger": 175.805
   },
   "TMUS::vcp": {
-    "invalid_below": 174.65035,
+    "invalid_below": 163.1751,
     "last_alert_at": "2026-06-04T16:58:58.586155+00:00",
     "last_alert_score": 40.0,
     "last_alert_type": "invalidated",
-    "state": "forming",
-    "trigger": 189.89
+    "state": "absent",
+    "trigger": 185.45
   },
   "TRMB::ascending_triangle": {
     "invalid_below": 53.3082,
@@ -4793,8 +4784,9 @@
     "trigger": 363.9499
   },
   "ZETA::ascending_triangle": {
-    "invalid_below": 17.542849999999998,
-    "state": "absent",
+    "invalid_below": 18.3801,
+    "monitored_until": "2026-07-14T20:00:00+00:00",
+    "state": "setup",
     "trigger": 21.365
   },
   "ZETA::breakout_retest_hold": {
