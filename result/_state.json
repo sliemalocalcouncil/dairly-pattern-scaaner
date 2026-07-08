@@ -134,15 +134,15 @@
     "trigger": 29.8
   },
   "AEVA::breakout_retest_hold": {
-    "invalid_below": 23.633082,
-    "monitored_until": null,
-    "state": "candidate",
-    "trigger": 24.0
+    "invalid_below": 20.889000000000003,
+    "monitored_until": "2026-07-15T20:00:00+00:00",
+    "state": "breakout_confirmed",
+    "trigger": 21.17
   },
   "AEVA::bull_flag": {
-    "invalid_below": 18.596799999999998,
+    "invalid_below": 20.7835,
     "state": "absent",
-    "trigger": 26.73
+    "trigger": 31.3
   },
   "AEVA::double_bottom": {
     "invalid_below": 22.753500000000003,
@@ -429,7 +429,7 @@
     "trigger": 1959.04
   },
   "ASML::bull_flag": {
-    "invalid_below": 1721.7997,
+    "invalid_below": 1691.55035,
     "state": "absent",
     "trigger": 1990.0
   },
@@ -440,7 +440,7 @@
     "trigger": 1603.49
   },
   "ASML::double_bottom": {
-    "invalid_below": 1704.33565,
+    "invalid_below": 1691.55035,
     "monitored_until": null,
     "state": "forming",
     "trigger": 1990.0
@@ -604,9 +604,9 @@
     "trigger": 432.8
   },
   "AVGO::bull_flag": {
-    "invalid_below": 367.10949999999997,
+    "invalid_below": 356.57984999999996,
     "state": "absent",
-    "trigger": 414.64
+    "trigger": 383.16
   },
   "AVGO::cup_with_handle": {
     "invalid_below": 388.73024999999996,
@@ -615,13 +615,13 @@
     "trigger": 429.31
   },
   "AVGO::double_bottom": {
-    "invalid_below": 355.0531,
+    "invalid_below": 356.57984999999996,
     "last_alert_at": "2026-06-09T16:41:20.279448+00:00",
     "last_alert_score": 40.0,
     "last_alert_type": "invalidated",
     "monitored_until": null,
     "state": "absent",
-    "trigger": 414.64
+    "trigger": 388.799
   },
   "AVGO::high_tight_pullback": {
     "invalid_below": 474.77,
@@ -1007,7 +1007,7 @@
     "trigger": 68.59
   },
   "COHU::bull_flag": {
-    "invalid_below": 56.516640499999994,
+    "invalid_below": 50.0971,
     "state": "absent",
     "trigger": 73.7499
   },
@@ -2092,20 +2092,20 @@
     "trigger": 146.28
   },
   "JCI::bull_flag": {
-    "invalid_below": 137.2105,
+    "invalid_below": 134.1767,
     "state": "absent",
     "trigger": 151.18
   },
   "JCI::cup_with_handle": {
-    "invalid_below": 136.07775,
+    "invalid_below": 134.1767,
     "state": "absent",
     "trigger": 149.38
   },
   "JCI::double_bottom": {
-    "invalid_below": 140.574275,
+    "invalid_below": 134.1767,
     "monitored_until": null,
     "state": "absent",
-    "trigger": 149.38
+    "trigger": 151.18
   },
   "JCI::inverse_head_shoulders": {
     "invalid_below": 129.3502,
@@ -4093,9 +4093,14 @@
   },
   "TMUS::double_bottom": {
     "invalid_below": 163.1751,
-    "monitored_until": "2026-07-14T20:00:00+00:00",
-    "state": "setup",
+    "monitored_until": null,
+    "state": "extended",
     "trigger": 175.805
+  },
+  "TMUS::high_tight_pullback": {
+    "invalid_below": 183.1435125,
+    "state": "forming",
+    "trigger": 189.97
   },
   "TMUS::vcp": {
     "invalid_below": 163.1751,
@@ -4464,7 +4469,7 @@
     "trigger": 277.59
   },
   "VICR::bull_flag": {
-    "invalid_below": 275.80985,
+    "invalid_below": 242.73355,
     "state": "absent",
     "trigger": 382.65
   },
@@ -4519,18 +4524,18 @@
     "trigger": 319.839
   },
   "VRT::bull_flag": {
-    "invalid_below": 292.00325,
+    "invalid_below": 282.80335,
     "state": "absent",
     "trigger": 335.1099
   },
   "VRT::double_bottom": {
-    "invalid_below": 292.00325,
+    "invalid_below": 282.80335,
     "last_alert_at": "2026-07-03T21:17:03.980692+00:00",
     "last_alert_score": 40.0,
     "last_alert_type": "invalidated",
     "monitored_until": null,
     "state": "forming",
-    "trigger": 340.0
+    "trigger": 335.1099
   },
   "VRT::high_tight_pullback": {
     "invalid_below": 324.6462485,
@@ -4809,13 +4814,13 @@
     "trigger": 19.78
   },
   "ZETA::double_bottom": {
-    "invalid_below": 18.56725,
+    "invalid_below": 20.0349,
     "last_alert_at": "2026-05-12T16:27:00.691155+00:00",
     "last_alert_score": 40.0,
     "last_alert_type": "invalidated",
-    "monitored_until": "2026-07-13T20:00:00+00:00",
-    "state": "setup",
-    "trigger": 20.5
+    "monitored_until": null,
+    "state": "candidate",
+    "trigger": 22.5
   },
   "ZETA::high_tight_pullback": {
     "invalid_below": 20.0546,
