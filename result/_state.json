@@ -136,7 +136,7 @@
   "AEVA::breakout_retest_hold": {
     "invalid_below": 20.889000000000003,
     "monitored_until": "2026-07-15T20:00:00+00:00",
-    "state": "breakout_confirmed",
+    "state": "retest_hold",
     "trigger": 21.17
   },
   "AEVA::bull_flag": {
@@ -1098,21 +1098,21 @@
     "trigger": 9.7
   },
   "CRML::bull_flag": {
-    "invalid_below": 8.648299999999999,
+    "invalid_below": 8.288775,
     "last_alert_at": "2026-04-28T20:04:17.079570+00:00",
     "last_alert_score": 50.38,
     "last_alert_type": "invalidated",
     "state": "absent",
-    "trigger": 10.6
+    "trigger": 10.4
   },
   "CRML::double_bottom": {
-    "invalid_below": 9.7121,
+    "invalid_below": 8.288775,
     "last_alert_at": "2026-05-18T16:50:46.115044+00:00",
     "last_alert_score": 40.0,
     "last_alert_type": "invalidated",
     "monitored_until": null,
-    "state": "invalidated",
-    "trigger": 10.6
+    "state": "absent",
+    "trigger": 10.4
   },
   "CRML::high_tight_pullback": {
     "invalid_below": 9.40675,
@@ -4825,7 +4825,7 @@
     "last_alert_score": 40.0,
     "last_alert_type": "invalidated",
     "monitored_until": null,
-    "state": "candidate",
+    "state": "forming",
     "trigger": 22.5
   },
   "ZETA::high_tight_pullback": {
