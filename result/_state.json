@@ -302,9 +302,9 @@
     "trigger": 50.64
   },
   "AOSL::bull_flag": {
-    "invalid_below": 33.096000000000004,
+    "invalid_below": 33.7855,
     "state": "absent",
-    "trigger": 44.12
+    "trigger": 40.19
   },
   "AOSL::double_bottom": {
     "invalid_below": 35.88355,
@@ -312,7 +312,7 @@
     "last_alert_score": 40.0,
     "last_alert_type": "invalidated",
     "monitored_until": null,
-    "state": "forming",
+    "state": "invalidated",
     "trigger": 40.19
   },
   "AOSL::high_tight_pullback": {
@@ -2785,17 +2785,17 @@
     "last_alert_at": "2026-05-07T18:10:51.946104+00:00",
     "last_alert_score": 0.0,
     "last_alert_type": "invalidated",
-    "monitored_until": "2026-07-20T20:00:00+00:00",
-    "state": "setup",
+    "monitored_until": null,
+    "state": "invalidated",
     "trigger": 959.0
   },
   "MU::bull_flag": {
-    "invalid_below": 878.2850999999999,
+    "invalid_below": 889.061,
     "state": "absent",
-    "trigger": 1097.0
+    "trigger": 1035.5
   },
   "MU::double_bottom": {
-    "invalid_below": 936.0258,
+    "invalid_below": 878.2850999999999,
     "last_alert_at": "2026-07-03T19:53:03.291706+00:00",
     "last_alert_score": 40.0,
     "last_alert_type": "invalidated",
@@ -2923,7 +2923,7 @@
   },
   "NOK::base_on_base": {
     "invalid_below": 12.89365,
-    "state": "forming",
+    "state": "invalidated",
     "trigger": 15.07
   },
   "NOK::breakout_retest_hold": {
@@ -2933,9 +2933,9 @@
     "trigger": 14.48
   },
   "NOK::bull_flag": {
-    "invalid_below": 11.716574999999999,
+    "invalid_below": 11.426,
     "state": "absent",
-    "trigger": 13.49
+    "trigger": 13.13
   },
   "NOK::cup_with_handle": {
     "invalid_below": 7.67315,
@@ -2943,13 +2943,13 @@
     "trigger": 8.535
   },
   "NOK::double_bottom": {
-    "invalid_below": 11.4063,
+    "invalid_below": 11.426,
     "last_alert_at": "2026-04-28T18:08:31.444559+00:00",
     "last_alert_score": 58.64,
     "last_alert_type": "failed",
     "monitored_until": null,
-    "state": "absent",
-    "trigger": 13.49
+    "state": "forming",
+    "trigger": 13.13
   },
   "NOK::high_tight_pullback": {
     "invalid_below": 14.05595,
@@ -4867,7 +4867,7 @@
     "last_alert_score": 40.0,
     "last_alert_type": "invalidated",
     "monitored_until": null,
-    "state": "candidate",
+    "state": "forming",
     "trigger": 22.9
   },
   "ZETA::high_tight_pullback": {
