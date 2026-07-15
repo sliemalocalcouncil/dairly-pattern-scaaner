@@ -2058,7 +2058,7 @@
     "trigger": 56.46
   },
   "IREN::bull_flag": {
-    "invalid_below": 37.5088,
+    "invalid_below": 36.4844,
     "state": "absent",
     "trigger": 45.54
   },
@@ -2450,9 +2450,9 @@
     "trigger": 38.55
   },
   "LUNR::bull_flag": {
-    "invalid_below": 15.927450000000002,
+    "invalid_below": 14.60755,
     "state": "absent",
-    "trigger": 21.45
+    "trigger": 18.55
   },
   "LUNR::double_bottom": {
     "invalid_below": 15.6812,
