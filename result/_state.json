@@ -1389,6 +1389,11 @@
     "state": "forming",
     "trigger": 902.18
   },
+  "ETN::ascending_triangle": {
+    "invalid_below": 391.1435,
+    "state": "absent",
+    "trigger": 419.0
+  },
   "ETN::base_on_base": {
     "invalid_below": 362.12539999999996,
     "state": "forming",
@@ -1399,8 +1404,8 @@
     "last_alert_at": "2026-06-05T16:32:52.752504+00:00",
     "last_alert_score": 0.0,
     "last_alert_type": "invalidated",
-    "monitored_until": "2026-07-20T20:00:00+00:00",
-    "state": "setup",
+    "monitored_until": null,
+    "state": "invalidated",
     "trigger": 401.6099
   },
   "ETN::bull_flag": {
@@ -1414,13 +1419,13 @@
     "trigger": 427.93
   },
   "ETN::double_bottom": {
-    "invalid_below": 395.81239999999997,
+    "invalid_below": 386.4155,
     "last_alert_at": "2026-05-18T16:53:41.090111+00:00",
     "last_alert_score": 40.0,
     "last_alert_type": "invalidated",
     "monitored_until": null,
-    "state": "candidate",
-    "trigger": 423.45
+    "state": "absent",
+    "trigger": 420.245
   },
   "ETN::inverse_head_shoulders": {
     "invalid_below": 382.4361,
@@ -2100,16 +2105,16 @@
     "trigger": 141.45
   },
   "JCI::breakout_retest_hold": {
-    "invalid_below": 138.6,
+    "invalid_below": 137.8575,
     "last_alert_at": "2026-06-10T19:55:39.652544+00:00",
     "last_alert_score": 0.0,
     "last_alert_type": "invalidated",
-    "monitored_until": "2026-07-23T20:00:00+00:00",
+    "monitored_until": "2026-07-24T20:00:00+00:00",
     "state": "setup",
     "trigger": 140.6225
   },
   "JCI::bull_flag": {
-    "invalid_below": 137.9,
+    "invalid_below": 137.16125,
     "state": "absent",
     "trigger": 147.25
   },
@@ -2119,7 +2124,7 @@
     "trigger": 151.18
   },
   "JCI::double_bottom": {
-    "invalid_below": 137.2105,
+    "invalid_below": 134.1767,
     "monitored_until": null,
     "state": "forming",
     "trigger": 147.25
@@ -3062,15 +3067,15 @@
     "trigger": 155.79
   },
   "NVT::bull_flag": {
-    "invalid_below": 152.42875,
+    "invalid_below": 148.9517,
     "state": "absent",
     "trigger": 165.99
   },
   "NVT::double_bottom": {
-    "invalid_below": 153.82745,
+    "invalid_below": 144.3616,
     "monitored_until": null,
-    "state": "forming",
-    "trigger": 165.34
+    "state": "absent",
+    "trigger": 165.99
   },
   "NVT::vcp": {
     "invalid_below": 159.83595,
@@ -4043,7 +4048,7 @@
     "trigger": 59.59
   },
   "TEM::bull_flag": {
-    "invalid_below": 53.6825,
+    "invalid_below": 51.845475,
     "state": "absent",
     "trigger": 62.95
   },
@@ -4058,7 +4063,7 @@
     "last_alert_score": 40.0,
     "last_alert_type": "invalidated",
     "monitored_until": null,
-    "state": "candidate",
+    "state": "invalidated",
     "trigger": 62.95
   },
   "TEM::high_tight_pullback": {
@@ -4335,7 +4340,7 @@
     "trigger": 251.24
   },
   "TTWO::double_bottom": {
-    "invalid_below": 233.69125,
+    "invalid_below": 234.43,
     "monitored_until": null,
     "state": "forming",
     "trigger": 249.0
@@ -4509,18 +4514,9 @@
     "trigger": 277.59
   },
   "VICR::bull_flag": {
-    "invalid_below": 246.99859999999998,
+    "invalid_below": 224.2542605,
     "state": "absent",
-    "trigger": 289.8
-  },
-  "VICR::double_bottom": {
-    "invalid_below": 242.73355,
-    "last_alert_at": "2026-06-05T19:02:09.534444+00:00",
-    "last_alert_score": 40.0,
-    "last_alert_type": "invalidated",
-    "monitored_until": "2026-07-16T20:00:00+00:00",
-    "state": "setup",
-    "trigger": 261.09
+    "trigger": 279.0
   },
   "VICR::high_tight_pullback": {
     "invalid_below": 316.1259,
@@ -4747,16 +4743,16 @@
     "trigger": 51.34
   },
   "WOLF::bull_flag": {
-    "invalid_below": 32.308,
+    "invalid_below": 29.648500000000002,
     "state": "absent",
-    "trigger": 39.31
+    "trigger": 37.5
   },
   "WOLF::double_bottom": {
     "invalid_below": 32.308,
     "last_alert_at": "2026-06-01T19:23:21.869943+00:00",
     "last_alert_score": 40.0,
     "last_alert_type": "invalidated",
-    "state": "absent",
+    "state": "invalidated",
     "trigger": 39.31
   },
   "WOLF::inverse_head_shoulders": {
