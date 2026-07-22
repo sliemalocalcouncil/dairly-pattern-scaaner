@@ -3077,7 +3077,7 @@
   "NVT::double_bottom": {
     "invalid_below": 152.3992,
     "monitored_until": null,
-    "state": "forming",
+    "state": "candidate",
     "trigger": 165.99
   },
   "NVT::vcp": {
