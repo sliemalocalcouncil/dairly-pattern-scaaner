@@ -710,8 +710,8 @@
     "trigger": 90.76
   },
   "AXTI::bull_flag": {
-    "invalid_below": 45.507000000000005,
-    "state": "absent",
+    "invalid_below": 37.34135,
+    "state": "invalidated",
     "trigger": 57.616
   },
   "AXTI::double_bottom": {
@@ -1975,18 +1975,18 @@
     "trigger": 141.45
   },
   "INTC::bull_flag": {
-    "invalid_below": 81.8535,
+    "invalid_below": 80.5927,
     "state": "absent",
-    "trigger": 106.85
+    "trigger": 104.18
   },
   "INTC::double_bottom": {
-    "invalid_below": 99.9578,
+    "invalid_below": 80.5927,
     "last_alert_at": "2026-06-05T16:34:52.065975+00:00",
     "last_alert_score": 40.0,
     "last_alert_type": "invalidated",
     "monitored_until": null,
-    "state": "invalidated",
-    "trigger": 109.61
+    "state": "forming",
+    "trigger": 88.47
   },
   "INTC::high_tight_pullback": {
     "invalid_below": 97.746475,
@@ -2145,20 +2145,20 @@
     "trigger": 143.425
   },
   "JCI::bull_flag": {
-    "invalid_below": 135.0731485,
+    "invalid_below": 134.1964,
     "state": "absent",
-    "trigger": 146.55
+    "trigger": 147.04
   },
   "JCI::cup_with_handle": {
-    "invalid_below": 134.62980000000002,
+    "invalid_below": 134.1964,
     "state": "absent",
     "trigger": 147.25
   },
   "JCI::double_bottom": {
-    "invalid_below": 134.62980000000002,
+    "invalid_below": 134.1964,
     "monitored_until": null,
-    "state": "absent",
-    "trigger": 145.28
+    "state": "forming",
+    "trigger": 147.04
   },
   "JCI::inverse_head_shoulders": {
     "invalid_below": 129.3502,
@@ -3432,10 +3432,10 @@
     "trigger": 366.305
   },
   "PANW::double_bottom": {
-    "invalid_below": 311.50625,
+    "invalid_below": 305.8031,
     "monitored_until": null,
     "state": "forming",
-    "trigger": 368.8
+    "trigger": 336.57
   },
   "PANW::high_tight_pullback": {
     "invalid_below": 348.2172,
@@ -4339,10 +4339,10 @@
     "trigger": 432.8599
   },
   "TSLA::double_bottom": {
-    "invalid_below": 299.71579999999994,
+    "invalid_below": 295.2045,
     "monitored_until": null,
     "state": "absent",
-    "trigger": 326.36
+    "trigger": 311.16
   },
   "TSLA::high_tight_pullback": {
     "invalid_below": 383.4615835,
@@ -4782,7 +4782,7 @@
     "trigger": 40.0
   },
   "VSH::bull_flag": {
-    "invalid_below": 31.923849999999995,
+    "invalid_below": 29.235588,
     "state": "absent",
     "trigger": 41.99
   },
