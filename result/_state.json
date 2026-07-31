@@ -1846,31 +1846,37 @@
     "trigger": 80.7499
   },
   "HON::ascending_triangle": {
-    "invalid_below": 226.12644999999998,
+    "invalid_below": 233.7996,
     "monitored_until": null,
-    "state": "forming",
+    "state": "absent",
     "trigger": 252.0
   },
   "HON::base_on_base": {
     "invalid_below": 202.43720000000002,
-    "monitored_until": null,
-    "state": "extended",
+    "monitored_until": "2026-08-07T20:00:00+00:00",
+    "state": "setup",
     "trigger": 234.64
   },
+  "HON::breakout_retest_hold": {
+    "invalid_below": 234.9864,
+    "monitored_until": "2026-08-07T20:00:00+00:00",
+    "state": "setup",
+    "trigger": 238.1084
+  },
   "HON::bull_flag": {
-    "invalid_below": 242.39865,
-    "state": "forming",
+    "invalid_below": 233.7996,
+    "state": "absent",
     "trigger": 252.0
   },
   "HON::double_bottom": {
     "invalid_below": 226.12644999999998,
     "monitored_until": null,
     "state": "forming",
-    "trigger": 250.27
+    "trigger": 252.0
   },
   "HON::vcp": {
     "invalid_below": 214.8285,
-    "monitored_until": "2026-08-04T20:00:00+00:00",
+    "monitored_until": "2026-08-07T20:00:00+00:00",
     "state": "setup",
     "trigger": 234.64
   },
@@ -2021,7 +2027,7 @@
     "last_alert_score": 40.0,
     "last_alert_type": "invalidated",
     "monitored_until": null,
-    "state": "candidate",
+    "state": "forming",
     "trigger": 336.94
   },
   "INTU::high_tight_pullback": {
@@ -2089,18 +2095,18 @@
     "trigger": 63.17
   },
   "IREN::breakout_retest_hold": {
-    "invalid_below": 39.9465,
+    "invalid_below": 36.37755,
     "last_alert_at": "2026-06-17T22:16:01.050340+00:00",
     "last_alert_score": 0.0,
     "last_alert_type": "invalidated",
     "monitored_until": null,
-    "state": "invalidated",
-    "trigger": 40.445
+    "state": "extended",
+    "trigger": 36.39
   },
   "IREN::bull_flag": {
     "invalid_below": 29.609099999999998,
-    "state": "invalidated",
-    "trigger": 43.429
+    "state": "absent",
+    "trigger": 40.23
   },
   "IREN::cup_with_handle": {
     "invalid_below": 55.4555985,
@@ -4884,8 +4890,8 @@
     "last_alert_at": "2026-06-01T19:23:21.869943+00:00",
     "last_alert_score": 40.0,
     "last_alert_type": "invalidated",
-    "monitored_until": null,
-    "state": "forming",
+    "monitored_until": "2026-08-07T20:00:00+00:00",
+    "state": "setup",
     "trigger": 22.75
   },
   "WOLF::inverse_head_shoulders": {
