@@ -1764,7 +1764,7 @@
     "last_alert_score": 40.0,
     "last_alert_type": "invalidated",
     "monitored_until": null,
-    "state": "forming",
+    "state": "extended",
     "trigger": 147.0
   },
   "GLW::high_tight_pullback": {
@@ -3609,7 +3609,7 @@
   },
   "POWI::base_on_base": {
     "invalid_below": 63.512800000000006,
-    "state": "invalidated",
+    "state": "forming",
     "trigger": 74.92
   },
   "POWI::breakout_retest_hold": {
@@ -3631,8 +3631,8 @@
     "last_alert_at": "2026-06-05T19:01:37.497869+00:00",
     "last_alert_score": 40.0,
     "last_alert_type": "invalidated",
-    "monitored_until": null,
-    "state": "forming",
+    "monitored_until": "2026-08-12T20:00:00+00:00",
+    "state": "setup",
     "trigger": 63.715
   },
   "POWI::high_tight_pullback": {
@@ -3642,8 +3642,8 @@
   },
   "POWI::inverse_head_shoulders": {
     "invalid_below": 55.194475,
-    "monitored_until": null,
-    "state": "forming",
+    "monitored_until": "2026-08-12T20:00:00+00:00",
+    "state": "setup",
     "trigger": 61.68
   },
   "POWI::vcp": {
@@ -4403,7 +4403,7 @@
     "trigger": 406.77
   },
   "TT::ascending_triangle": {
-    "invalid_below": 463.8168,
+    "invalid_below": 434.320975,
     "state": "absent",
     "trigger": 488.56
   },
@@ -4427,16 +4427,16 @@
     "trigger": 488.56
   },
   "TT::double_bottom": {
-    "invalid_below": 434.320975,
+    "invalid_below": 449.0109695,
     "monitored_until": null,
     "state": "absent",
     "trigger": 488.56
   },
   "TT::vcp": {
-    "invalid_below": 452.85375,
+    "invalid_below": 433.2227,
     "monitored_until": null,
     "state": "absent",
-    "trigger": 490.755
+    "trigger": 488.56
   },
   "TTWO::ascending_triangle": {
     "invalid_below": 234.3906,
@@ -4721,14 +4721,14 @@
     "last_alert_at": "2026-07-03T21:17:03.980692+00:00",
     "last_alert_score": 40.0,
     "last_alert_type": "invalidated",
-    "monitored_until": "2026-08-11T20:00:00+00:00",
-    "state": "setup",
+    "monitored_until": null,
+    "state": "extended",
     "trigger": 254.43
   },
   "VRT::high_tight_pullback": {
-    "invalid_below": 296.3471985,
+    "invalid_below": 266.70844999999997,
     "state": "forming",
-    "trigger": 313.61
+    "trigger": 276.5201
   },
   "VRT::inverse_head_shoulders": {
     "invalid_below": 268.83605,
