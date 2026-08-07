@@ -2142,10 +2142,10 @@
     "trigger": 40.815
   },
   "JCI::ascending_triangle": {
-    "invalid_below": 134.1964,
-    "monitored_until": "2026-08-12T20:00:00+00:00",
-    "state": "breakout_confirmed",
-    "trigger": 148.405
+    "invalid_below": 141.55435,
+    "monitored_until": null,
+    "state": "breakout_failed",
+    "trigger": 157.06
   },
   "JCI::base_on_base": {
     "invalid_below": 124.02135,
@@ -2163,7 +2163,7 @@
     "trigger": 146.07
   },
   "JCI::bull_flag": {
-    "invalid_below": 151.0399,
+    "invalid_below": 150.2716985,
     "state": "forming",
     "trigger": 157.06
   },
@@ -2174,10 +2174,10 @@
     "trigger": 147.25
   },
   "JCI::double_bottom": {
-    "invalid_below": 138.14625,
-    "monitored_until": "2026-08-12T20:00:00+00:00",
-    "state": "breakout_confirmed",
-    "trigger": 147.86
+    "invalid_below": 149.94655,
+    "monitored_until": null,
+    "state": "breakout_failed",
+    "trigger": 157.06
   },
   "JCI::inverse_head_shoulders": {
     "invalid_below": 129.3502,
@@ -2988,10 +2988,10 @@
     "trigger": 15.07
   },
   "NOK::breakout_retest_hold": {
-    "invalid_below": 10.097999999999999,
-    "monitored_until": null,
-    "state": "forming",
-    "trigger": 10.34
+    "invalid_below": 9.20898,
+    "monitored_until": "2026-08-14T20:00:00+00:00",
+    "state": "setup",
+    "trigger": 9.34
   },
   "NOK::bull_flag": {
     "invalid_below": 8.638449999999999,
@@ -3004,18 +3004,18 @@
     "trigger": 8.535
   },
   "NOK::double_bottom": {
-    "invalid_below": 8.638449999999999,
+    "invalid_below": 8.7468,
     "last_alert_at": "2026-07-16T15:43:01.828776+00:00",
     "last_alert_score": 40.0,
     "last_alert_type": "invalidated",
-    "monitored_until": "2026-08-12T20:00:00+00:00",
-    "state": "setup",
-    "trigger": 9.54
+    "monitored_until": null,
+    "state": "absent",
+    "trigger": 10.17
   },
   "NOK::high_tight_pullback": {
-    "invalid_below": 9.48555,
+    "invalid_below": 9.162469999999999,
     "monitored_until": null,
-    "state": "forming",
+    "state": "absent",
     "trigger": 10.17
   },
   "NOK::inverse_head_shoulders": {
