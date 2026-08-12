@@ -747,10 +747,10 @@
     "trigger": 240.88
   },
   "BA::cup_with_handle": {
-    "invalid_below": 210.987,
+    "invalid_below": 227.39710000000002,
     "monitored_until": null,
     "state": "forming",
-    "trigger": 237.48
+    "trigger": 241.0895
   },
   "BA::double_bottom": {
     "invalid_below": 200.8415,
@@ -1820,7 +1820,7 @@
   "HON::ascending_triangle": {
     "invalid_below": 235.8878,
     "monitored_until": null,
-    "state": "forming",
+    "state": "invalidated",
     "trigger": 251.1564
   },
   "HON::bull_flag": {
@@ -1829,20 +1829,20 @@
     "trigger": 252.0
   },
   "HON::cup_with_handle": {
-    "invalid_below": 233.7996,
-    "state": "forming",
-    "trigger": 252.0
+    "invalid_below": 226.25449999999998,
+    "state": "absent",
+    "trigger": 251.1564
   },
   "HON::double_bottom": {
     "invalid_below": 236.71519999999998,
     "monitored_until": null,
-    "state": "forming",
+    "state": "invalidated",
     "trigger": 251.1564
   },
   "HON::vcp": {
     "invalid_below": 233.7996,
     "monitored_until": null,
-    "state": "forming",
+    "state": "invalidated",
     "trigger": 252.0
   },
   "HPE::ascending_triangle": {
