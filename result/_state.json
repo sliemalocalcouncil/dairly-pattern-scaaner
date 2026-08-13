@@ -1199,21 +1199,21 @@
     "trigger": 461.39
   },
   "CRWD::ascending_triangle": {
-    "invalid_below": 175.080598,
+    "invalid_below": 207.80545,
     "state": "forming",
-    "trigger": 219.35
+    "trigger": 226.9
   },
   "CRWD::breakout_retest_hold": {
-    "invalid_below": 217.04760000000002,
-    "last_alert_at": "2026-08-12T19:33:03.881894+00:00",
-    "last_alert_score": 70.49,
+    "invalid_below": 215.7111,
+    "last_alert_at": "2026-08-13T21:47:01.023205+00:00",
+    "last_alert_score": 70.66,
     "last_alert_type": "setup",
-    "monitored_until": "2026-08-19T20:00:00+00:00",
+    "monitored_until": "2026-08-20T20:00:00+00:00",
     "state": "setup",
     "trigger": 219.35
   },
   "CRWD::bull_flag": {
-    "invalid_below": 215.9514,
+    "invalid_below": 214.62165,
     "state": "forming",
     "trigger": 226.9
   },
@@ -1956,10 +1956,10 @@
     "trigger": 103.66
   },
   "INTC::breakout_retest_hold": {
-    "invalid_below": 97.194636,
-    "monitored_until": "2026-08-17T20:00:00+00:00",
+    "invalid_below": 99.121968,
+    "monitored_until": "2026-08-20T20:00:00+00:00",
     "state": "setup",
-    "trigger": 97.9
+    "trigger": 100.025
   },
   "INTC::bull_flag": {
     "invalid_below": 80.5927,
@@ -1967,12 +1967,12 @@
     "trigger": 104.18
   },
   "INTC::double_bottom": {
-    "invalid_below": 89.72365,
+    "invalid_below": 95.20025000000001,
     "last_alert_at": "2026-06-05T16:34:52.065975+00:00",
     "last_alert_score": 40.0,
     "last_alert_type": "invalidated",
     "monitored_until": null,
-    "state": "absent",
+    "state": "forming",
     "trigger": 103.66
   },
   "INTC::high_tight_pullback": {
@@ -2896,7 +2896,7 @@
   },
   "NET::ascending_triangle": {
     "invalid_below": 286.13265,
-    "state": "forming",
+    "state": "candidate",
     "trigger": 324.73
   },
   "NET::breakout_retest_hold": {
@@ -3581,7 +3581,7 @@
     "trigger": 132.41
   },
   "PLTR::high_tight_pullback": {
-    "invalid_below": 170.1292,
+    "invalid_below": 165.8149,
     "state": "forming",
     "trigger": 179.6
   },
