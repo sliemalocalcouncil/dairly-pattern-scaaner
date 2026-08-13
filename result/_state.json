@@ -346,13 +346,13 @@
   },
   "APH::bull_flag": {
     "invalid_below": 164.3768,
-    "state": "forming",
+    "state": "absent",
     "trigger": 176.33
   },
   "APH::cup_with_handle": {
-    "invalid_below": 150.178025,
+    "invalid_below": 164.3768,
     "state": "forming",
-    "trigger": 168.75
+    "trigger": 176.33
   },
   "APH::double_bottom": {
     "invalid_below": 164.3768,
@@ -360,7 +360,7 @@
     "last_alert_score": 40.0,
     "last_alert_type": "invalidated",
     "monitored_until": null,
-    "state": "forming",
+    "state": "candidate",
     "trigger": 176.33
   },
   "APH::high_tight_pullback": {
@@ -2819,7 +2819,7 @@
     "last_alert_score": 40.0,
     "last_alert_type": "invalidated",
     "monitored_until": null,
-    "state": "absent",
+    "state": "forming",
     "trigger": 928.98
   },
   "MU::high_tight_pullback": {
@@ -3683,7 +3683,7 @@
   },
   "RKLB::bull_flag": {
     "invalid_below": 74.32809999999999,
-    "state": "absent",
+    "state": "forming",
     "trigger": 86.83
   },
   "RKLB::double_bottom": {
@@ -4311,21 +4311,21 @@
     "trigger": 265.87
   },
   "TSLA::ascending_triangle": {
-    "invalid_below": 310.78769250000005,
+    "invalid_below": 312.5011,
     "monitored_until": null,
     "state": "forming",
-    "trigger": 333.73
+    "trigger": 336.2
   },
   "TSLA::breakout_retest_hold": {
-    "invalid_below": 322.88849999999996,
-    "monitored_until": "2026-08-18T20:00:00+00:00",
+    "invalid_below": 320.4036,
+    "monitored_until": "2026-08-20T20:00:00+00:00",
     "state": "setup",
-    "trigger": 329.57
+    "trigger": 324.2
   },
   "TSLA::bull_flag": {
-    "invalid_below": 310.78769250000005,
+    "invalid_below": 318.7854,
     "state": "absent",
-    "trigger": 329.57
+    "trigger": 336.2
   },
   "TSLA::cup_with_handle": {
     "invalid_below": 383.4615835,
@@ -4336,7 +4336,7 @@
     "invalid_below": 315.62355,
     "monitored_until": null,
     "state": "forming",
-    "trigger": 333.73
+    "trigger": 336.2
   },
   "TSLA::high_tight_pullback": {
     "invalid_below": 383.4615835,
@@ -4393,7 +4393,7 @@
   "TT::ascending_triangle": {
     "invalid_below": 461.61039999999997,
     "state": "forming",
-    "trigger": 490.46
+    "trigger": 493.71
   },
   "TT::breakout_retest_hold": {
     "invalid_below": 469.683225,
