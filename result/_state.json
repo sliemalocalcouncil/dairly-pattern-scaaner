@@ -1056,7 +1056,7 @@
     "last_alert_score": 0.0,
     "last_alert_type": "failed",
     "monitored_until": null,
-    "state": "breakout_failed",
+    "state": "forming",
     "trigger": 59.88
   },
   "COHU::high_tight_pullback": {
@@ -1439,7 +1439,7 @@
     "last_alert_score": 70.13,
     "last_alert_type": "watch",
     "monitored_until": null,
-    "state": "candidate",
+    "state": "absent",
     "trigger": 453.93
   },
   "ETN::bull_flag": {
@@ -2381,27 +2381,27 @@
     "trigger": 323.64
   },
   "LRCX::breakout_retest_hold": {
-    "invalid_below": 291.3075,
+    "invalid_below": 323.28945,
     "last_alert_at": "2026-06-05T16:34:47.714108+00:00",
     "last_alert_score": 0.0,
     "last_alert_type": "invalidated",
-    "monitored_until": null,
-    "state": "candidate",
-    "trigger": 294.56
+    "monitored_until": "2026-08-24T20:00:00+00:00",
+    "state": "setup",
+    "trigger": 329.4899
   },
   "LRCX::bull_flag": {
-    "invalid_below": 289.24525,
+    "invalid_below": 321.656675,
     "monitored_until": null,
-    "state": "forming",
-    "trigger": 323.64
+    "state": "absent",
+    "trigger": 345.12
   },
   "LRCX::double_bottom": {
     "invalid_below": 304.70975000000004,
     "last_alert_at": "2026-07-03T21:29:02.006518+00:00",
     "last_alert_score": 40.0,
     "last_alert_type": "invalidated",
-    "monitored_until": "2026-08-21T20:00:00+00:00",
-    "state": "setup",
+    "monitored_until": null,
+    "state": "forming",
     "trigger": 334.34
   },
   "LRCX::high_tight_pullback": {
@@ -3377,10 +3377,10 @@
     "trigger": 129.13
   },
   "ONTO::ascending_triangle": {
-    "invalid_below": 256.1985,
-    "monitored_until": "2026-08-19T20:00:00+00:00",
-    "state": "setup",
-    "trigger": 316.0
+    "invalid_below": 288.6444,
+    "monitored_until": null,
+    "state": "forming",
+    "trigger": 346.9
   },
   "ONTO::breakout_retest_hold": {
     "invalid_below": 284.704299,
@@ -3397,18 +3397,18 @@
     "trigger": 303.64
   },
   "ONTO::double_bottom": {
-    "invalid_below": 267.63435,
+    "invalid_below": 322.31662500000004,
     "last_alert_at": "2026-05-18T16:52:33.045911+00:00",
     "last_alert_score": 40.0,
     "last_alert_type": "invalidated",
     "monitored_until": null,
     "state": "forming",
-    "trigger": 303.64
+    "trigger": 346.9
   },
   "ONTO::high_tight_pullback": {
-    "invalid_below": 322.31662500000004,
-    "state": "candidate",
-    "trigger": 343.58
+    "invalid_below": 326.9018,
+    "state": "forming",
+    "trigger": 346.9
   },
   "ONTO::inverse_head_shoulders": {
     "invalid_below": 256.1985,
