@@ -155,16 +155,16 @@
   },
   "AEVA::bull_flag": {
     "invalid_below": 21.726539000000002,
-    "state": "forming",
+    "state": "absent",
     "trigger": 25.86
   },
   "AEVA::double_bottom": {
-    "invalid_below": 21.726539000000002,
+    "invalid_below": 22.09355,
     "last_alert_at": "2026-06-25T21:09:03.308281+00:00",
     "last_alert_score": 40.0,
     "last_alert_type": "invalidated",
     "monitored_until": null,
-    "state": "forming",
+    "state": "candidate",
     "trigger": 25.86
   },
   "AEVA::high_tight_pullback": {
@@ -1090,7 +1090,7 @@
     "trigger": 196.8977
   },
   "CRM::bull_flag": {
-    "invalid_below": 192.3902,
+    "invalid_below": 187.06135,
     "state": "absent",
     "trigger": 204.4
   },
@@ -1100,8 +1100,8 @@
     "last_alert_score": 40.0,
     "last_alert_type": "invalidated",
     "monitored_until": null,
-    "state": "breakout_failed",
-    "trigger": 199.39
+    "state": "forming",
+    "trigger": 204.4
   },
   "CRM::high_tight_pullback": {
     "invalid_below": 173.2615,
@@ -1591,9 +1591,9 @@
     "trigger": 87.64
   },
   "FTNT::double_bottom": {
-    "invalid_below": 155.89595,
+    "invalid_below": 153.23645,
     "monitored_until": null,
-    "state": "candidate",
+    "state": "forming",
     "trigger": 167.1899
   },
   "FTNT::high_tight_pullback": {
@@ -1603,7 +1603,7 @@
   },
   "FTNT::vcp": {
     "invalid_below": 155.89595,
-    "state": "absent",
+    "state": "invalidated",
     "trigger": 172.09
   },
   "GD::ascending_triangle": {
@@ -3291,7 +3291,7 @@
     "trigger": 69.7167
   },
   "OMER::ascending_triangle": {
-    "invalid_below": 12.7262,
+    "invalid_below": 13.090649999999998,
     "monitored_until": null,
     "state": "forming",
     "trigger": 18.14
@@ -3311,13 +3311,13 @@
     "trigger": 18.14
   },
   "OMER::double_bottom": {
-    "invalid_below": 12.7262,
+    "invalid_below": 16.2919,
     "last_alert_at": "2026-06-05T19:04:40.885156+00:00",
     "last_alert_score": 47.16,
     "last_alert_type": "invalidated",
     "monitored_until": null,
-    "state": "extended",
-    "trigger": 13.85
+    "state": "forming",
+    "trigger": 17.6099
   },
   "OMER::inverse_head_shoulders": {
     "invalid_below": 10.39175,
@@ -4401,7 +4401,7 @@
   "TSLA::double_bottom": {
     "invalid_below": 321.25775,
     "monitored_until": null,
-    "state": "breakout_failed",
+    "state": "absent",
     "trigger": 351.26
   },
   "TSLA::high_tight_pullback": {
