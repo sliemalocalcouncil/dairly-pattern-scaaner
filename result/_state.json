@@ -970,10 +970,10 @@
     "trigger": 355.59
   },
   "CDNS::double_bottom": {
-    "invalid_below": 318.4702,
+    "invalid_below": 310.48184999999995,
     "monitored_until": null,
     "state": "absent",
-    "trigger": 348.12
+    "trigger": 333.475
   },
   "CDNS::high_tight_pullback": {
     "invalid_below": 361.48515,
@@ -2720,12 +2720,12 @@
     "trigger": 219.4625
   },
   "MRVL::bull_flag": {
-    "invalid_below": 213.84349999999998,
+    "invalid_below": 207.93349999999998,
     "last_alert_at": "2026-06-05T21:11:19.533024+00:00",
     "last_alert_score": 59.34,
     "last_alert_type": "invalidated",
     "state": "absent",
-    "trigger": 231.38
+    "trigger": 240.18
   },
   "MRVL::double_bottom": {
     "invalid_below": 208.56390000000002,
