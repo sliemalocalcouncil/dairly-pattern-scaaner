@@ -275,18 +275,18 @@
     "trigger": 12.69
   },
   "AMPX::bull_flag": {
-    "invalid_below": 11.27825,
+    "invalid_below": 10.5001,
     "state": "absent",
     "trigger": 13.42
   },
   "AMPX::double_bottom": {
-    "invalid_below": 11.23885,
+    "invalid_below": 10.5001,
     "last_alert_at": "2026-05-07T16:09:55.465156+00:00",
     "last_alert_score": 40.0,
     "last_alert_type": "invalidated",
     "monitored_until": null,
     "state": "forming",
-    "trigger": 12.69
+    "trigger": 13.42
   },
   "AMPX::high_tight_pullback": {
     "invalid_below": 12.351899999999999,
@@ -3744,8 +3744,8 @@
     "trigger": 75.59
   },
   "RKLB::bull_flag": {
-    "invalid_below": 80.4548,
-    "state": "forming",
+    "invalid_below": 75.7268,
+    "state": "absent",
     "trigger": 85.55
   },
   "RKLB::double_bottom": {
