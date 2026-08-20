@@ -154,7 +154,7 @@
     "trigger": 21.17
   },
   "AEVA::bull_flag": {
-    "invalid_below": 20.399350000000002,
+    "invalid_below": 19.020349999999997,
     "state": "absent",
     "trigger": 25.86
   },
@@ -355,8 +355,8 @@
     "last_alert_at": "2026-07-28T19:52:05.738612+00:00",
     "last_alert_score": 0.0,
     "last_alert_type": "invalidated",
-    "monitored_until": "2026-08-25T20:00:00+00:00",
-    "state": "setup",
+    "monitored_until": null,
+    "state": "invalidated",
     "trigger": 167.2302
   },
   "APH::bull_flag": {
@@ -365,8 +365,8 @@
     "trigger": 176.33
   },
   "APH::cup_with_handle": {
-    "invalid_below": 162.77125,
-    "state": "forming",
+    "invalid_below": 153.2266,
+    "state": "absent",
     "trigger": 176.33
   },
   "APH::double_bottom": {
@@ -2754,13 +2754,13 @@
     "trigger": 505.18
   },
   "MSFT::breakout_retest_hold": {
-    "invalid_below": 494.5545,
+    "invalid_below": 478.0413,
     "last_alert_at": "2026-06-05T16:35:35.147155+00:00",
     "last_alert_score": 0.0,
     "last_alert_type": "invalidated",
-    "monitored_until": null,
-    "state": "invalidated",
-    "trigger": 498.97
+    "monitored_until": "2026-08-27T20:00:00+00:00",
+    "state": "setup",
+    "trigger": 484.27
   },
   "MSFT::bull_flag": {
     "invalid_below": 484.1472,
@@ -2775,12 +2775,12 @@
     "trigger": 432.7
   },
   "MSFT::double_bottom": {
-    "invalid_below": 469.9932425,
+    "invalid_below": 472.1696,
     "last_alert_at": "2026-06-03T18:27:23.329363+00:00",
     "last_alert_score": 0.0,
     "last_alert_type": "failed",
     "monitored_until": null,
-    "state": "forming",
+    "state": "absent",
     "trigger": 513.73
   },
   "MSFT::vcp": {
@@ -4231,12 +4231,12 @@
     "last_alert_at": "2026-04-28T16:11:18.577228+00:00",
     "last_alert_score": 0.0,
     "last_alert_type": "invalidated",
-    "monitored_until": "2026-08-26T20:00:00+00:00",
-    "state": "setup",
+    "monitored_until": null,
+    "state": "invalidated",
     "trigger": 397.6
   },
   "TER::bull_flag": {
-    "invalid_below": 386.2973,
+    "invalid_below": 368.39984999999996,
     "state": "absent",
     "trigger": 443.16
   },
@@ -4247,13 +4247,13 @@
     "trigger": 409.72
   },
   "TER::double_bottom": {
-    "invalid_below": 380.2888,
+    "invalid_below": 367.208,
     "last_alert_at": "2026-07-02T18:31:01.299688+00:00",
     "last_alert_score": 0.0,
     "last_alert_type": "failed",
     "monitored_until": null,
     "state": "forming",
-    "trigger": 422.32
+    "trigger": 443.16
   },
   "TER::high_tight_pullback": {
     "invalid_below": 392.44370000000004,
