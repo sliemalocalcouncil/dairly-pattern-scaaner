@@ -187,6 +187,11 @@
     "state": "candidate",
     "trigger": 555.32
   },
+  "AMAT::base_on_base": {
+    "invalid_below": 429.78504999999996,
+    "state": "absent",
+    "trigger": 563.755
+  },
   "AMAT::breakout_retest_hold": {
     "invalid_below": 500.9697,
     "last_alert_at": "2026-04-28T16:11:35.798800+00:00",
@@ -197,15 +202,15 @@
     "trigger": 508.54
   },
   "AMAT::bull_flag": {
-    "invalid_below": 489.6435,
+    "invalid_below": 481.22175,
     "state": "absent",
     "trigger": 563.755
   },
   "AMAT::double_bottom": {
-    "invalid_below": 490.26405,
+    "invalid_below": 481.22175,
     "monitored_until": null,
-    "state": "absent",
-    "trigger": 563.755
+    "state": "forming",
+    "trigger": 539.81
   },
   "AMAT::high_tight_pullback": {
     "invalid_below": 559.6318869999999,
@@ -1346,18 +1351,18 @@
     "trigger": 107.8176
   },
   "DIOD::bull_flag": {
-    "invalid_below": 96.67775,
+    "invalid_below": 90.51657499999999,
     "monitored_until": null,
     "state": "absent",
     "trigger": 110.11
   },
   "DIOD::double_bottom": {
-    "invalid_below": 96.67775,
+    "invalid_below": 90.51657499999999,
     "last_alert_at": "2026-07-03T15:58:05.191066+00:00",
     "last_alert_score": 40.0,
     "last_alert_type": "invalidated",
     "monitored_until": null,
-    "state": "forming",
+    "state": "absent",
     "trigger": 110.11
   },
   "DIOD::high_tight_pullback": {
@@ -1754,17 +1759,17 @@
     "trigger": 164.34
   },
   "GLW::bull_flag": {
-    "invalid_below": 155.89595,
+    "invalid_below": 148.43949999999998,
     "state": "absent",
-    "trigger": 169.95
+    "trigger": 176.9399
   },
   "GLW::double_bottom": {
     "invalid_below": 153.5107725,
     "last_alert_at": "2026-07-03T17:48:00.999709+00:00",
     "last_alert_score": 40.0,
     "last_alert_type": "invalidated",
-    "monitored_until": "2026-08-25T20:00:00+00:00",
-    "state": "setup",
+    "monitored_until": null,
+    "state": "invalidated",
     "trigger": 170.43
   },
   "GLW::high_tight_pullback": {
@@ -2884,7 +2889,7 @@
     "trigger": 935.8
   },
   "NBIS::ascending_triangle": {
-    "invalid_below": 186.559,
+    "invalid_below": 210.54375,
     "monitored_until": null,
     "state": "forming",
     "trigger": 280.83
@@ -2899,8 +2904,8 @@
     "trigger": 212.98
   },
   "NBIS::bull_flag": {
-    "invalid_below": 241.10829999999999,
-    "state": "forming",
+    "invalid_below": 210.54375,
+    "state": "absent",
     "trigger": 280.83
   },
   "NBIS::double_bottom": {
