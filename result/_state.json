@@ -65,13 +65,13 @@
     "trigger": 396.26
   },
   "ADI::double_bottom": {
-    "invalid_below": 369.0204,
+    "invalid_below": 364.18405,
     "last_alert_at": "2026-06-05T21:11:43.279210+00:00",
     "last_alert_score": 54.52,
     "last_alert_type": "invalidated",
     "monitored_until": null,
     "state": "absent",
-    "trigger": 396.26
+    "trigger": 396.9519
   },
   "ADI::inverse_head_shoulders": {
     "invalid_below": 377.0777,
@@ -731,17 +731,17 @@
     "trigger": 71.21
   },
   "AXTI::bull_flag": {
-    "invalid_below": 70.53585,
-    "state": "forming",
-    "trigger": 90.39
+    "invalid_below": 71.91485,
+    "state": "absent",
+    "trigger": 97.79
   },
   "AXTI::double_bottom": {
-    "invalid_below": 74.02275,
+    "invalid_below": 70.53585,
     "last_alert_at": "2026-05-29T17:39:03.995970+00:00",
     "last_alert_score": 40.0,
     "last_alert_type": "invalidated",
-    "state": "extended",
-    "trigger": 84.8
+    "state": "forming",
+    "trigger": 97.79
   },
   "AXTI::high_tight_pullback": {
     "invalid_below": 51.968599999999995,
@@ -769,13 +769,13 @@
     "trigger": 240.37
   },
   "BA::cup_with_handle": {
-    "invalid_below": 219.2413,
+    "invalid_below": 216.897,
     "monitored_until": null,
     "state": "forming",
     "trigger": 241.0895
   },
   "BA::double_bottom": {
-    "invalid_below": 219.8717,
+    "invalid_below": 216.897,
     "monitored_until": null,
     "state": "absent",
     "trigger": 237.11
@@ -1130,7 +1130,7 @@
     "trigger": 6.21
   },
   "CRML::bull_flag": {
-    "invalid_below": 6.09518,
+    "invalid_below": 5.9346250000000005,
     "last_alert_at": "2026-04-28T20:04:17.079570+00:00",
     "last_alert_score": 50.38,
     "last_alert_type": "invalidated",
@@ -1138,13 +1138,13 @@
     "trigger": 7.15
   },
   "CRML::double_bottom": {
-    "invalid_below": 6.09518,
+    "invalid_below": 5.9346250000000005,
     "last_alert_at": "2026-05-18T16:50:46.115044+00:00",
     "last_alert_score": 40.0,
     "last_alert_type": "invalidated",
     "monitored_until": null,
     "state": "forming",
-    "trigger": 7.44
+    "trigger": 6.5498
   },
   "CRML::high_tight_pullback": {
     "invalid_below": 6.771875,
@@ -2383,7 +2383,7 @@
   "LRCX::ascending_triangle": {
     "invalid_below": 312.649835,
     "monitored_until": null,
-    "state": "forming",
+    "state": "invalidated",
     "trigger": 345.28
   },
   "LRCX::breakout_retest_hold": {
@@ -2391,12 +2391,12 @@
     "last_alert_at": "2026-06-05T16:34:47.714108+00:00",
     "last_alert_score": 0.0,
     "last_alert_type": "invalidated",
-    "monitored_until": "2026-08-26T20:00:00+00:00",
-    "state": "setup",
+    "monitored_until": null,
+    "state": "invalidated",
     "trigger": 316.86
   },
   "LRCX::bull_flag": {
-    "invalid_below": 312.649835,
+    "invalid_below": 300.5038985,
     "monitored_until": null,
     "state": "absent",
     "trigger": 345.28
@@ -2407,7 +2407,7 @@
     "last_alert_score": 40.0,
     "last_alert_type": "invalidated",
     "monitored_until": null,
-    "state": "forming",
+    "state": "absent",
     "trigger": 345.28
   },
   "LRCX::high_tight_pullback": {
@@ -2813,12 +2813,12 @@
     "trigger": 105.5
   },
   "MSTR::double_bottom": {
-    "invalid_below": 92.97415,
+    "invalid_below": 91.3292,
     "last_alert_at": "2026-05-18T16:52:09.177650+00:00",
     "last_alert_score": 40.0,
     "last_alert_type": "invalidated",
     "monitored_until": null,
-    "state": "invalidated",
+    "state": "absent",
     "trigger": 105.5
   },
   "MSTR::high_tight_pullback": {
@@ -3744,17 +3744,17 @@
     "trigger": 75.59
   },
   "RKLB::bull_flag": {
-    "invalid_below": 75.7268,
+    "invalid_below": 72.763526,
     "state": "absent",
     "trigger": 85.55
   },
   "RKLB::double_bottom": {
-    "invalid_below": 74.7615,
+    "invalid_below": 72.763526,
     "last_alert_at": "2026-06-01T22:23:16.954906+00:00",
     "last_alert_score": 40.0,
     "last_alert_type": "invalidated",
     "monitored_until": null,
-    "state": "forming",
+    "state": "absent",
     "trigger": 86.83
   },
   "RKLB::high_tight_pullback": {
