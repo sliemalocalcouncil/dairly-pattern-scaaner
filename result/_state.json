@@ -954,7 +954,7 @@
     "trigger": 355.59
   },
   "CDNS::double_bottom": {
-    "invalid_below": 306.79795,
+    "invalid_below": 306.75855,
     "monitored_until": null,
     "state": "absent",
     "trigger": 333.475
@@ -973,7 +973,7 @@
   "CDNS::vcp": {
     "invalid_below": 324.64615,
     "monitored_until": null,
-    "state": "invalidated",
+    "state": "forming",
     "trigger": 355.59
   },
   "COHR::ascending_triangle": {
@@ -1026,23 +1026,23 @@
     "last_alert_at": "2026-07-06T16:58:03.903980+00:00",
     "last_alert_score": 0.0,
     "last_alert_type": "invalidated",
-    "monitored_until": "2026-08-27T20:00:00+00:00",
-    "state": "breakout_confirmed",
+    "monitored_until": null,
+    "state": "invalidated",
     "trigger": 53.99
   },
   "COHU::bull_flag": {
-    "invalid_below": 52.3035,
+    "invalid_below": 49.57505,
     "state": "absent",
-    "trigger": 63.53
+    "trigger": 60.075
   },
   "COHU::double_bottom": {
-    "invalid_below": 52.3035,
+    "invalid_below": 49.7425,
     "last_alert_at": "2026-07-02T16:11:05.544158+00:00",
     "last_alert_score": 0.0,
     "last_alert_type": "failed",
     "monitored_until": null,
     "state": "forming",
-    "trigger": 63.53
+    "trigger": 55.475
   },
   "COHU::high_tight_pullback": {
     "invalid_below": 56.295212500000005,
