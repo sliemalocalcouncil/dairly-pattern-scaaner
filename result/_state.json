@@ -1409,15 +1409,6 @@
     "state": "forming",
     "trigger": 427.93
   },
-  "ETN::breakout_retest_hold": {
-    "invalid_below": 444.51,
-    "last_alert_at": "2026-08-14T18:27:03.790145+00:00",
-    "last_alert_score": 70.13,
-    "last_alert_type": "watch",
-    "monitored_until": "2026-08-25T20:00:00+00:00",
-    "state": "setup",
-    "trigger": 453.93
-  },
   "ETN::bull_flag": {
     "invalid_below": 442.265,
     "state": "absent",
@@ -1429,12 +1420,12 @@
     "trigger": 419.0
   },
   "ETN::double_bottom": {
-    "invalid_below": 409.42510000000004,
+    "invalid_below": 401.00335,
     "last_alert_at": "2026-05-18T16:53:41.090111+00:00",
     "last_alert_score": 40.0,
     "last_alert_type": "invalidated",
     "monitored_until": null,
-    "state": "invalidated",
+    "state": "forming",
     "trigger": 436.95
   },
   "ETN::high_tight_pullback": {
@@ -3444,7 +3435,7 @@
   "PANW::double_bottom": {
     "invalid_below": 341.84090100000003,
     "monitored_until": null,
-    "state": "forming",
+    "state": "invalidated",
     "trigger": 376.43
   },
   "PANW::high_tight_pullback": {
@@ -4378,12 +4369,6 @@
     "state": "forming",
     "trigger": 436.04
   },
-  "TSM::base_on_base": {
-    "invalid_below": 367.1292,
-    "monitored_until": "2026-08-25T20:00:00+00:00",
-    "state": "setup",
-    "trigger": 426.3
-  },
   "TSM::breakout_retest_hold": {
     "invalid_below": 412.53299999999996,
     "monitored_until": "2026-08-31T20:00:00+00:00",
@@ -4396,7 +4381,7 @@
     "trigger": 433.28
   },
   "TSM::double_bottom": {
-    "invalid_below": 401.6025255,
+    "invalid_below": 399.07275,
     "last_alert_at": "2026-07-14T15:44:02.586800+00:00",
     "last_alert_score": 52.65,
     "last_alert_type": "invalidated",
@@ -4872,12 +4857,6 @@
     "state": "candidate",
     "trigger": 147.39
   },
-  "WOLF::ascending_triangle": {
-    "invalid_below": 28.6044985,
-    "monitored_until": "2026-08-25T20:00:00+00:00",
-    "state": "setup",
-    "trigger": 33.51
-  },
   "WOLF::breakout_retest_hold": {
     "invalid_below": 28.749699,
     "last_alert_at": "2026-06-24T22:00:00.789435+00:00",
@@ -4890,7 +4869,7 @@
   "WOLF::bull_flag": {
     "invalid_below": 23.01945,
     "state": "absent",
-    "trigger": 33.5999
+    "trigger": 32.0
   },
   "WOLF::double_bottom": {
     "invalid_below": 23.01945,
