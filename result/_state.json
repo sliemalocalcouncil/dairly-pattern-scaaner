@@ -291,9 +291,9 @@
     "trigger": 12.69
   },
   "AMPX::bull_flag": {
-    "invalid_below": 7.5451,
+    "invalid_below": 6.9147,
     "state": "absent",
-    "trigger": 8.39
+    "trigger": 9.035
   },
   "AMPX::double_bottom": {
     "invalid_below": 7.47615,
@@ -722,14 +722,14 @@
     "trigger": 88.36
   },
   "AXTI::bull_flag": {
-    "invalid_below": 50.1956,
+    "invalid_below": 36.2283,
     "state": "absent",
-    "trigger": 65.2
+    "trigger": 56.8897
   },
   "AXTI::double_bottom": {
-    "invalid_below": 50.73735,
+    "invalid_below": 36.2283,
     "state": "forming",
-    "trigger": 59.43
+    "trigger": 40.5
   },
   "AXTI::high_tight_pullback": {
     "invalid_below": 56.676899999999996,
@@ -1424,9 +1424,9 @@
     "trigger": 427.93
   },
   "ETN::bull_flag": {
-    "invalid_below": 359.3674,
+    "invalid_below": 319.40594999999996,
     "state": "absent",
-    "trigger": 399.3
+    "trigger": 395.63
   },
   "ETN::cup_with_handle": {
     "invalid_below": 398.33399999999995,
@@ -1970,21 +1970,15 @@
     "state": "absent",
     "trigger": 103.66
   },
-  "INTC::inverse_head_shoulders": {
-    "invalid_below": 83.46889999999999,
-    "monitored_until": "2026-11-04T21:00:00+00:00",
-    "state": "setup",
-    "trigger": 93.13
-  },
   "INTC::vcp": {
     "invalid_below": 112.26044999999999,
     "state": "invalidated",
     "trigger": 127.44
   },
   "INTU::ascending_triangle": {
-    "invalid_below": 294.34754999999996,
+    "invalid_below": 329.87649999999996,
     "state": "absent",
-    "trigger": 341.79
+    "trigger": 366.47
   },
   "INTU::breakout_retest_hold": {
     "invalid_below": 335.81789999999995,
@@ -1993,9 +1987,9 @@
     "trigger": 340.16
   },
   "INTU::bull_flag": {
-    "invalid_below": 334.12185,
-    "state": "forming",
-    "trigger": 356.56
+    "invalid_below": 329.87649999999996,
+    "state": "absent",
+    "trigger": 366.47
   },
   "INTU::cup_with_handle": {
     "invalid_below": 314.2340105,
@@ -2003,13 +1997,13 @@
     "trigger": 358.03
   },
   "INTU::double_bottom": {
-    "invalid_below": 327.694725,
+    "invalid_below": 319.3173,
     "last_alert_at": "2026-05-21T16:43:42.686632+00:00",
     "last_alert_score": 40.0,
     "last_alert_type": "invalidated",
     "monitored_until": null,
     "state": "forming",
-    "trigger": 358.03
+    "trigger": 366.47
   },
   "INTU::high_tight_pullback": {
     "invalid_below": 326.363793,
@@ -2080,16 +2074,10 @@
     "state": "forming",
     "trigger": 49.37
   },
-  "IREN::breakout_retest_hold": {
-    "invalid_below": 26.5419,
-    "monitored_until": "2026-11-04T21:00:00+00:00",
-    "state": "setup",
-    "trigger": 26.74
-  },
   "IREN::bull_flag": {
-    "invalid_below": 23.3642,
+    "invalid_below": 16.897675,
     "state": "absent",
-    "trigger": 28.39
+    "trigger": 24.43
   },
   "IREN::cup_with_handle": {
     "invalid_below": 55.4555985,
@@ -2109,12 +2097,6 @@
     "invalid_below": 46.905699999999996,
     "state": "forming",
     "trigger": 49.37
-  },
-  "IREN::inverse_head_shoulders": {
-    "invalid_below": 23.3642,
-    "monitored_until": "2026-11-04T21:00:00+00:00",
-    "state": "setup",
-    "trigger": 26.74
   },
   "JCI::ascending_triangle": {
     "invalid_below": 138.5501,
@@ -2558,7 +2540,7 @@
   "MOD::bull_flag": {
     "invalid_below": 86.5224,
     "state": "absent",
-    "trigger": 134.625
+    "trigger": 133.87
   },
   "MOD::double_bottom": {
     "invalid_below": 124.76995,
@@ -3796,12 +3778,6 @@
     "state": "absent",
     "trigger": 69.7076
   },
-  "SBGSY::breakout_retest_hold": {
-    "invalid_below": 54.45,
-    "monitored_until": "2026-11-06T21:00:00+00:00",
-    "state": "setup",
-    "trigger": 55.03
-  },
   "SBGSY::bull_flag": {
     "invalid_below": 50.83585,
     "state": "absent",
@@ -3813,10 +3789,10 @@
     "trigger": 68.12
   },
   "SBGSY::double_bottom": {
-    "invalid_below": 50.077400000000004,
+    "invalid_below": 49.35835,
     "monitored_until": null,
     "state": "forming",
-    "trigger": 55.64
+    "trigger": 54.25
   },
   "SBGSY::high_tight_pullback": {
     "invalid_below": 65.5222,
